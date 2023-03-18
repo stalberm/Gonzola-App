@@ -1,7 +1,22 @@
+import LearnButton from "../components/LearnButton";
+
 function Home() {
     return (
         <div>
             <h1>SAVANTS.NETWORK</h1>
+            <p>
+                SAVANTS is an exclusive space where teaching professionals with the highest
+                qualifications offer private tutoring services to extremely engaged students.
+
+                All our programs are unique, tailored specifically to your schedule, pace, and
+                curiosities. We have an ever-growing number of face-to-face locations where our
+                tutors and students can meet in person, as well as virtual/remote options for
+
+                most of our custom courses.
+
+                We offer small group classes on occasion.
+            </p>
+            <LearnButton path="/about"/>
             <p>
                 SAVANT TUTORS
 
@@ -15,7 +30,7 @@ function Home() {
                 excellence. We use PROT (peer-review-of-teaching) evaluations as well as student
                 evaluations to vet our tutors. Most of them have won multiple teaching awards.
             </p>
-            LEARN MORE
+            <LearnButton path="/tutors"/>
             <p>
                 SAVANTS CUSTOM COURSES
 
@@ -27,7 +42,7 @@ function Home() {
                 of learning experiences. Our tutors create unique custom courses to students of all
                 ages and all levels, from basic to advanced, from all four corners of the globe.
             </p>
-            LEARN MORE
+            <LearnButton path="/virtual"/>
             <p>
                 SAVANTS CLASSIC COURSES
 
@@ -38,7 +53,7 @@ function Home() {
                 excellence. We strive to make our core classic courses available in person-
                 to-person format at as many locations as we can.
             </p>
-            LEARN MORE
+            <LearnButton path="/classic"/>
             <p>
                 PROFESSIONAL SAVANTS SEMINARS
 
@@ -52,7 +67,7 @@ function Home() {
                 students or small groups. These courses engage business-related issues and
                 practices from the very first meeting.
             </p>
-            LEARN MORE
+            <LearnButton path="/seminars"/>
             <p>
                 SAVANTS CULTURAL CONSULTING
 
@@ -61,7 +76,7 @@ function Home() {
                 prepare your team for an important international or cross-cultural endeavor? Or
                 perhaps you are, as many of our students are, simply curious about the world.
             </p>
-            LEARN MORE 
+            <LearnButton path="/consulting"/>
             <p>
                 SAVANTS IN CONVERSATION
 
@@ -70,7 +85,7 @@ function Home() {
                 as we value online communications, we make every effort to offer such courses
                 in a person-to-person mode.
             </p>
-            LEARN MORE
+            <LearnButton path="/conversations"/>
             <p>
                 SAVANTS BOOK AND FILM CLUBS
 
@@ -87,7 +102,7 @@ function Home() {
                 designed to meet your interests and prior training. We frequently offer these experiences
                 for families or groups of friends looking to take their next gathering to the next level.
             </p>
-            LEARN MORE
+            <LearnButton path="/clubs"/>
             <p>
                 SAVANTS WRITING WORKSHOPS
 
@@ -97,7 +112,9 @@ function Home() {
                 professional writing skills or produce a manuscript of original poetry, our writing
                 workshops offer all participants a challenging and rewarding experience.
             </p>
-            <h2>Are You Ready To Join Our Network?</h2>
+            <LearnButton path="/workshop"/>
+
+            <LearnButton text="Are You Ready To Join Our Network?"/>
         </div>
     )
 }
