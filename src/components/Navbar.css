@@ -4,13 +4,13 @@
   height: 6rem;
   align-items: center;
   justify-content: center;
-  background-color: #A2BCDE;
+  background-color: var(--theme-color-secondary);
   margin-bottom: 1rem;
 }
 
 .nav-bar .link {
   text-decoration: none;
-  color: rgb(59, 93, 172);
+  color: var(--theme-color-primary);
 }
 
 .nav-bar .list {
@@ -46,7 +46,7 @@ button {
   font-size: 2.5rem;
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .nav-bar {
     flex-direction: column;
     height: auto;

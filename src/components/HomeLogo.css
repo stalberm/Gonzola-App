@@ -30,3 +30,15 @@
 .logo-half.right {
   animation: logo_enter_right 1s ease-in-out;
 }
+
+@media screen and (max-width: 480px) {
+  .logo-half {
+    width: 7.5rem;
+  }
+  .logo-half.left {
+    margin-right: 0.75rem;
+  }
+  .icon-container {
+    width: 15.75rem;
+  }
+}
