@@ -27,7 +27,7 @@
 }
 
 button {
-    display: none;
+  display: none;
 }
 
 .nav-bar #mobile {
@@ -46,26 +46,24 @@ button {
 
 @media (max-width: 480px) {
   .nav-bar {
-      flex-direction: column;
-      height: auto;
-      width: 100%;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
   }
   .nav-bar .list {
-      display: none;
+    display: none;
   }
 
   .nav-bar .item {
-      padding: 0;
-      width: 100%;
+    padding: 0;
+    width: 100%;
   }
   button {
-      border: none;
-      padding: 10px;
-      background-color: rgb(240, 240, 240);
-      display: flex;
-      justify-content: space-between;
-      width: 100%;
-      
+    border: none;
+    padding: 10px;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
   }
-  
 }
