@@ -1,4 +1,7 @@
+import { setPageTitle } from "../util";
+
 function Clubs() {
+  setPageTitle("Clubs");
   return (
     <div>
       <h1>Clubs</h1>

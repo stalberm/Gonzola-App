@@ -1,4 +1,7 @@
+import { setPageTitle } from "../util";
+
 function Virtual() {
+  setPageTitle("Custom Virtual Classes");
   return (
     <div>
       <h1>Custom Virtual Classes</h1>

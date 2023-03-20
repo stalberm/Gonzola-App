@@ -1,4 +1,7 @@
+import { setPageTitle } from "../util";
+
 function About() {
+  setPageTitle("About Us");
   return (
     <div>
       <h1>About Us</h1>

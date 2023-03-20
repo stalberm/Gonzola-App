@@ -1,6 +1,8 @@
 import LearnButton from "../components/LearnButton";
+import { setPageTitle } from "../util";
 
 function Home() {
+  setPageTitle();
   return (
     <div>
       <h1>SAVANTS.NETWORK</h1>
