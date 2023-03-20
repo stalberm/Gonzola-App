@@ -12,7 +12,7 @@ import Seminars from "./pages/Seminars";
 import Consulting from "./pages/Consulting";
 import Conversations from "./pages/Conversations";
 import Clubs from "./pages/Clubs";
-import Workshop from "./pages/Worshop";
+import Workshop from "./pages/Workshop";
 
 function App() {
   return (
