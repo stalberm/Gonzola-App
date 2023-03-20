@@ -1,4 +1,7 @@
+import { setPageTitle } from "../util";
+
 function Consulting() {
+  setPageTitle("Culture Consulting");
   return (
     <div>
       <h1>Consulting</h1>

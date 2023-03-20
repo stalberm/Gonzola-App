@@ -1,4 +1,7 @@
+import { setPageTitle } from "../util";
+
 function Workshop() {
+  setPageTitle("Writing Workshops");
   return (
     <div>
       <h1>Workshop</h1>

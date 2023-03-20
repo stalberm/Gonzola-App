@@ -1,0 +1,44 @@
+@keyframes logo_enter_left {
+  from {
+    transform: translateX(-50vw);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes logo_enter_right {
+  from {
+    transform: translateX(50vw);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.logo-half {
+  width: 10rem;
+  display: inline-block;
+}
+.icon-container {
+  margin: auto;
+  width: 21rem;
+}
+.logo-half.left {
+  margin-right: 1rem;
+  animation: logo_enter_left 1s ease-in-out;
+}
+.logo-half.right {
+  animation: logo_enter_right 1s ease-in-out;
+}
+
+@media screen and (max-width: 480px) {
+  .logo-half {
+    width: 7.5rem;
+  }
+  .logo-half.left {
+    margin-right: 0.75rem;
+  }
+  .icon-container {
+    width: 15.75rem;
+  }
+}

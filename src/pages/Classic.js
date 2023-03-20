@@ -1,4 +1,7 @@
+import { setPageTitle } from "../util";
+
 function Classic() {
+  setPageTitle("Classic Classes");
   return (
     <div>
       <h1>Classic Classes</h1>

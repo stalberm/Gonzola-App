@@ -2,18 +2,24 @@ import "./Navbar.css";
 
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
-import { GiHamburgerMenu } from "react-icons/gi"
+import { GiHamburgerMenu } from "react-icons/gi";
 function Navbar() {
+  const [showMobile, setShowMobile] = useState(false);
 
-  const [showMobile, setShowMobile] = useState(false)
-  
   return (
     <div className="nav-bar">
-      <button onClick={() => setShowMobile(!showMobile)}><img src="logo192.png" alt="Savants Logo" /> <GiHamburgerMenu id="menu"/></button>
-      <ul className="list" id={showMobile ? "mobile" : ""} onClick={() => setShowMobile(false)}>
+      <button onClick={() => setShowMobile(!showMobile)}>
+        <img src="logo192.png" alt="Savants Logo" />{" "}
+        <GiHamburgerMenu id="menu" />
+      </button>
+      <ul
+        className="list"
+        id={showMobile ? "mobile" : ""}
+        onClick={() => setShowMobile(false)}
+      >
         <li className="item">
           <NavLink to="/" className="link">
-           Home
+            Home
           </NavLink>
         </li>
         <li className="item">

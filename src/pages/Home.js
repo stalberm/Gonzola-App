@@ -1,8 +1,12 @@
+import HomeLogo from "../components/HomeLogo";
 import LearnButton from "../components/LearnButton";
+import { setPageTitle } from "../util";
 
 function Home() {
+  setPageTitle();
   return (
     <div>
+      <HomeLogo></HomeLogo>
       <h1>SAVANTS.NETWORK</h1>
       <p>
         SAVANTS is an exclusive space where teaching professionals with the
