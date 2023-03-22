@@ -24,7 +24,7 @@
 }
 
 .home-logo {
-  min-height: 100vh;
+  min-height: calc(100vh - 7rem);
   display: grid;
   align-items: center;
 }

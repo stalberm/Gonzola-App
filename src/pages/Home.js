@@ -5,6 +5,10 @@ import "./Home.css";
 
 function Home() {
   setPageTitle();
+  document.body.style.overflowX = "hidden";
+  setTimeout(() => {
+    document.body.style.overflowX = "";
+  }, 1000);
   return (
     <div>
       <div className="main-container">
