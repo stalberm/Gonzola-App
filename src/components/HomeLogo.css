@@ -23,12 +23,20 @@
   margin: auto;
   width: 21rem;
 }
+.logo-half {
+  animation-timing-function: cubic-bezier(.3,-0.01,.82,.19);
+  animation-duration: 1s;
+  animation-delay: 0.1s;
+  animation-fill-mode: forwards;
+}
 .logo-half.left {
   margin-right: 1rem;
-  animation: logo_enter_left 1s ease-in-out;
+  transform: translateX(-50vw);
+  animation-name: logo_enter_left;
 }
 .logo-half.right {
-  animation: logo_enter_right 1s ease-in-out;
+  transform: translatex(50vw);
+  animation-name: logo_enter_right;
 }
 
 @media screen and (max-width: 480px) {
