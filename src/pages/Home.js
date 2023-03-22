@@ -7,9 +7,8 @@ function Home() {
   setPageTitle();
   return (
     <div>
-      <HomeLogo></HomeLogo>
       <div className="main-container">
-        <h1>SAVANTS NETWORK</h1>
+        <HomeLogo></HomeLogo>
         <div className="subpage-section">
           <div className="content">
             <div className="text-container">

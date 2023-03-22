@@ -6,6 +6,7 @@
   justify-content: center;
   background-color: var(--theme-color-secondary);
   margin-bottom: 1rem;
+  position: absolute;
 }
 
 .nav-bar .link {
@@ -44,6 +45,12 @@ button {
 
 .nav-bar #menu {
   font-size: 2.5rem;
+}
+
+@media screen and (max-height: 650px) {
+  .nav-bar {
+    position: relative;
+  }
 }
 
 @media screen and (max-width: 480px) {
