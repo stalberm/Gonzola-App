@@ -14,7 +14,7 @@ function Home() {
           <div className="content">
             <div className="text-container">
               <p>
-                SAVANTS is an exclusive space where teaching professionals with the
+                <strong>SAVANTS</strong> is an exclusive space where teaching professionals with the
                 highest qualifications offer private tutoring services to extremely
                 engaged students. All our programs are unique, tailored specifically to
                 your schedule, pace, and curiosities. We have an ever-growing number of
@@ -36,7 +36,7 @@ function Home() {
             </div>  
             <div className="text-container">
               <p>
-                SAVANT TUTORS Our tutors are drawn from an exclusive group of teaching
+                <strong>SAVANT TUTORS</strong><br/>Our tutors are drawn from an exclusive group of teaching
                 professionals from around the world. Our entry requirements are
                 extremely strict; we source our colleagues from the most prestigious
                 institutions. Our tutors must have at least one degree from one of the
@@ -57,7 +57,7 @@ function Home() {
           <div className="content">
             <div className="text-container">
               <p>
-                SAVANTS CUSTOM COURSES At SAVANTS we offer virtual custom courses in any
+                <strong>SAVANTS CUSTOM COURSES</strong><br/>At SAVANTS we offer virtual custom courses in any
                 conceivable subject virtually. Whatever your need, whatever your
                 curiosity, we are here to provide a curated educational encounter.
                 Across time zones and space, our tutors and students meet online to
@@ -79,7 +79,7 @@ function Home() {
             </div>  
             <div className="text-container">
               <p>
-                SAVANTS CLASSIC COURSES At SAVANTS, we stay true to our roots in the
+                <strong>PROFESSIONAL SAVANTS SEMINARS</strong><br/>At SAVANTS, we stay true to our roots in the
                 Arts and Humanities, and we pride ourselves in offering courses of
                 incomparable quality in these areas. Our master classes in cinema,
                 languages and literatures constitute our core, classic courses; they are
@@ -95,7 +95,7 @@ function Home() {
           <div className="content">
             <div className="text-container">
               <p>
-                PROFESSIONAL SAVANTS SEMINARS The professional SAVANTS seminars are
+                <strong>PROFESSIONAL SAVANTS SEMINARS</strong><br/>The professional SAVANTS seminars are
                 designed to provide actual, accountable results and real value at a
                 fast-paced rhythm. Our professional students have excelled in their
                 careers so far, but now need to more fully master a particular subject
@@ -119,7 +119,7 @@ function Home() {
             </div>  
             <div className="text-container">
               <p>
-                SAVANTS CULTURAL CONSULTING Are you looking to make your next travel
+                <strong>SAVANTS CULTURAL CONSULTING</strong><br/>Are you looking to make your next travel
                 adventure more rich and pleasant, more intellectually and culturally
                 informed? Or maybe you're a team leader looking to prepare your team for
                 an important international or cross-cultural endeavor? Or perhaps you
@@ -133,7 +133,7 @@ function Home() {
           <div className="content">
             <div className="text-container">
               <p>
-                SAVANTS IN CONVERSATION from intermediate to advanced, at SAVANTS, we
+                <strong>SAVANTS IN CONVERSATION</strong> from intermediate to advanced, at SAVANTS, we
                 offer conversation courses in almost any language to students of all
                 ages almost anywhere on Earth. As much as we value online
                 communications, we make every effort to offer such courses in a
@@ -153,7 +153,7 @@ function Home() {
             </div>  
             <div className="text-container">
               <p>
-                SAVANTS BOOK AND FILM CLUBS Our SAVANTS BOOK AND FILM CLUBS are one of
+                <strong>SAVANTS BOOK AND FILM CLUBS</strong><br/>Our SAVANTS BOOK AND FILM CLUBS are one of
                 our most popular learning opportunities. Have you ever wanted an expert
                 to walk you through the nuances of French New Wave cinema or German
                 Expressionism? Are you looking for someone to help you curate a crash
@@ -175,7 +175,7 @@ function Home() {
           <div className="content">
             <div className="text-container">
               <p>
-                SAVANTS WRITING WORKSHOPS Young, ambitious writers as well as seasoned
+                <strong>SAVANTS WRITING WORKSHOPS</strong><br/>Young, ambitious writers as well as seasoned
                 professionals seek us out to deepen and develop their skills. Our
                 SAVANTS WRITING WORKSHOPS provide high-quality feedback from
                 accomplished authors. Whether you want to hone your professional writing
