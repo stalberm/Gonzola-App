@@ -1,15 +1,18 @@
 import HomeLogo from "../components/HomeLogo";
 import LearnButton from "../components/LearnButton";
 import { setPageTitle } from "../util";
-import './Home.css'
+import "./Home.css";
 
 function Home() {
   setPageTitle();
+  document.body.style.overflowX = "hidden";
+  setTimeout(() => {
+    document.body.style.overflowX = "";
+  }, 1000);
   return (
     <div>
-      <HomeLogo></HomeLogo>
       <div className="main-container">
-        <h1>SAVANTS NETWORK</h1>
+        <HomeLogo></HomeLogo>
         <div className="subpage-section">
           <div className="content">
             <div className="text-container">
@@ -25,15 +28,15 @@ function Home() {
               <LearnButton path="/about" />
             </div>
             <div className="image-container">
-              <img src="images/Jose.png" alt="Jose Echegaray Portrait"/>  
-            </div>     
+              <img src="images/Jose.png" alt="Jose Echegaray Portrait" />
+            </div>
           </div>
         </div>
         <div className="subpage-section">
           <div className="content">
             <div className="image-container">
-              <img src="images/Thomas.png" alt="Thomas Mann Portrait"/>  
-            </div>  
+              <img src="images/Thomas.png" alt="Thomas Mann Portrait" />
+            </div>
             <div className="text-container">
               <p>
                 <strong>SAVANT TUTORS</strong><br/>Our tutors are drawn from an exclusive group of teaching
@@ -50,7 +53,7 @@ function Home() {
                 awards.
               </p>
               <LearnButton path="/tutors" />
-            </div>   
+            </div>
           </div>
         </div>
         <div className="subpage-section">
@@ -66,17 +69,17 @@ function Home() {
                 advanced, from all four corners of the globe.
               </p>
               <LearnButton path="/virtual" />
-            </div>   
+            </div>
             <div className="image-container">
-              <img src="images/Gabriel.png" alt="Gabriel Marquez Portrait"/>  
-            </div>  
+              <img src="images/Gabriel.png" alt="Gabriel Marquez Portrait" />
+            </div>
           </div>
         </div>
         <div className="subpage-section">
           <div className="content">
             <div className="image-container">
-              <img src="images/Marie.png" alt="Marie Curie Portrait"/>  
-            </div>  
+              <img src="images/Marie.png" alt="Marie Curie Portrait" />
+            </div>
             <div className="text-container">
               <p>
                 <strong>PROFESSIONAL SAVANTS SEMINARS</strong><br/>At SAVANTS, we stay true to our roots in the
@@ -88,7 +91,7 @@ function Home() {
                 person- to-person format at as many locations as we can.
               </p>
               <LearnButton path="/classic" />
-            </div>   
+            </div>
           </div>
         </div>
         <div className="subpage-section">
@@ -106,17 +109,17 @@ function Home() {
                 from the very first meeting.
               </p>
               <LearnButton path="/seminars" />
-            </div>   
+            </div>
             <div className="image-container">
-              <img src="images/Severo.png" alt="Severo Ochoa Portrait"/>  
-            </div>  
+              <img src="images/Severo.png" alt="Severo Ochoa Portrait" />
+            </div>
           </div>
         </div>
         <div className="subpage-section">
           <div className="content">
             <div className="image-container">
-              <img src="images/Martin.png" alt="Martin King Portrait"/>  
-            </div>  
+              <img src="images/Martin.png" alt="Martin King Portrait" />
+            </div>
             <div className="text-container">
               <p>
                 <strong>SAVANTS CULTURAL CONSULTING</strong><br/>Are you looking to make your next travel
@@ -126,7 +129,7 @@ function Home() {
                 are, as many of our students are, simply curious about the world.
               </p>
               <LearnButton path="/consulting" />
-            </div>   
+            </div>
           </div>
         </div>
         <div className="subpage-section">
@@ -140,17 +143,17 @@ function Home() {
                 person-to-person mode.
               </p>
               <LearnButton path="/conversations" />
-            </div>   
+            </div>
             <div className="image-container">
-              <img src="images/Emily.png" alt="Emily Balch Portrait"/>  
-            </div>  
+              <img src="images/Emily.png" alt="Emily Balch Portrait" />
+            </div>
           </div>
         </div>
         <div className="subpage-section">
           <div className="content">
             <div className="image-container">
-              <img src="images/Alfred.png" alt="Alfred Fried Portrait"/>  
-            </div>  
+              <img src="images/Alfred.png" alt="Alfred Fried Portrait" />
+            </div>
             <div className="text-container">
               <p>
                 <strong>SAVANTS BOOK AND FILM CLUBS</strong><br/>Our SAVANTS BOOK AND FILM CLUBS are one of
@@ -168,7 +171,7 @@ function Home() {
                 gathering to the next level.
               </p>
               <LearnButton path="/clubs" />
-            </div>   
+            </div>
           </div>
         </div>
         <div className="subpage-section">
@@ -183,13 +186,16 @@ function Home() {
                 offer all participants a challenging and rewarding experience.
               </p>
               <LearnButton path="/workshop" />
-            </div>   
+            </div>
             <div className="image-container">
-              <img src="images/Erwin.png" alt="Erwin Schrodinger Portrait"/>  
-            </div>  
+              <img src="images/Erwin.png" alt="Erwin Schrodinger Portrait" />
+            </div>
           </div>
         </div>
-        <LearnButton text="Are You Ready To Join Our Network?" id="join-button"/>
+        <LearnButton
+          text="Are You Ready To Join Our Network?"
+          id="join-button"
+        />
       </div>
     </div>
   );
