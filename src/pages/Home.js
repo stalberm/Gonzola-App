@@ -193,6 +193,7 @@ function Home() {
           </div>
         </div>
         <LearnButton
+          path="/form"
           text="Are You Ready To Join Our Network?"
           id="join-button"
         />

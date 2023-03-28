@@ -13,6 +13,7 @@ import Consulting from "./pages/Consulting";
 import Conversations from "./pages/Conversations";
 import Clubs from "./pages/Clubs";
 import Workshop from "./pages/Workshop";
+import Form from "./pages/Form";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="/conversations" element={<Conversations />} />
         <Route path="/clubs" element={<Clubs />} />
         <Route path="/workshop" element={<Workshop />} />
+        <Route path="/form" element={<Form />} />
       </Routes>
     </>
   );
