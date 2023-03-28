@@ -1,0 +1,11 @@
+.text-input {
+    all: unset;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.text-input:focus {
+    all: unset;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
