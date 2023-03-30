@@ -46,35 +46,35 @@ h1 {
 }
 
 @media screen and (max-width: 810px) {
-    .main-container {
-        margin: 0 32px;
-    }
+  .main-container {
+    margin: 0 32px;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    .main-container {
-        margin: 0 24px;
-    }
+  .main-container {
+    margin: 0 24px;
+  }
 }
 
 @media screen and (max-width: 512px) {
-    .main-container {
-        margin: 0 12px;
-    }
+  .main-container {
+    margin: 0 12px;
+  }
 
-    .subpage-section {
-        padding: 25px;
-    }
+  .subpage-section {
+    padding: 25px;
+  }
 
-    .content {
-        flex-flow: column;
-    }
+  .content {
+    flex-flow: column;
+  }
 
-    .image-container {
-        order: 1;
-    }
+  .image-container {
+    order: 1;
+  }
 
-    .text-container {
-        order: 2;
-    }
+  .text-container {
+    order: 2;
+  }
 }
