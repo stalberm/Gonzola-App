@@ -1,3 +1,7 @@
+body[data-modal-open='true'] {
+  overflow: hidden;
+}
+
 .nav-bar {
   display: flex;
   width: 100%;
@@ -6,6 +10,7 @@
   justify-content: center;
   background-color: var(--theme-color-secondary);
   margin-bottom: 1rem;
+  position: relative;
 }
 
 .nav-bar .link {
@@ -44,9 +49,17 @@ button {
 }
 
 .nav-bar #mobile {
-  display: flex;
+  display: block;
   flex-direction: column;
   text-align: center;
+  overflow-y: auto;
+  position: absolute;
+  top: 5rem;
+  left: 0;
+  width: 100%;
+  height: calc(100vh - 5rem);
+  background: white;
+  z-index: 1;
 }
 
 .nav-bar img {
@@ -60,17 +73,30 @@ button {
 @media screen and (max-width: 480px) {
   .nav-bar {
     flex-direction: column;
-    height: auto;
+    height: 5rem;
     width: 100%;
+    background-color: rgb(240, 240, 240);
   }
+
   .nav-bar .list {
     display: none;
+    justify-content: unset;
+    font-size: 1.5rem;
   }
 
   .nav-bar .item {
     padding: 0;
-    width: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
+
+  .nav-bar .item:hover .link {
+    color: var(--theme-color-secondary);
+  }
+
   button {
     border: none;
     padding: 0.75rem;

@@ -6,6 +6,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 function Navbar() {
   const [showMobile, setShowMobile] = useState(false);
   const { pathname } = useLocation();
+  document.body.dataset.modalOpen = showMobile;
 
   return (
     <div className="nav-bar">
