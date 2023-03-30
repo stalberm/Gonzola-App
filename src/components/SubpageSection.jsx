@@ -11,7 +11,7 @@ export default function SubpageSection(props) {
   );
   const textContainer = (
     <div className="text-container">
-      <h2>{title}</h2>
+      <h2 className="subpage-title">{title}</h2>
       <p>{children}</p>
       <LearnButton path={path} />
     </div>

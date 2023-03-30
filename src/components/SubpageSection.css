@@ -26,3 +26,7 @@
 .image-container img {
   height: 300px;
 }
+
+.subpage-title {
+  text-transform: uppercase;
+}
