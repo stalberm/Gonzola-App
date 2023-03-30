@@ -1,5 +1,9 @@
 <?php
 
+require __DIR__ . '/../envloader.php';
+
+(new App\Controller\DotEnvEnvironment)->load(__DIR__ . '/../');
+
 $errors = [];
 
 // Verification of data
@@ -47,6 +51,7 @@ if (!empty($errors)) {
   http_response_code(400);
   exit;
 }
+http_response_code(204);
 
 $name = trim($_POST["first_name"] . " " . $_POST["last_name"]);
 
@@ -54,6 +59,12 @@ $name = trim($_POST["first_name"] . " " . $_POST["last_name"]);
 $to = getenv("EMAIL_TO");
 $subject = "[savants.network] Tutoring request from $name";
 $address = "{$_POST['address']} {$_POST['city']} {$_POST['state']} {$_POST['zip']}, {$_POST['country']}";
+$physical = $_POST['info_physical']
+  ? '- I would like to receive information regarding all courses offered in my town, city, or region'
+  : '- I do not wish to receive information regarding all courses offered in my town, city, or region';
+$virtual = $_POST['info_virtual']
+  ? '- I would like to receive information regarding all courses offered virtually'
+  : '- I do not wish to receive information regarding all courses offered virtually';
 $message = "
 Contact Information:
 Name: $name
@@ -67,15 +78,18 @@ Type: {$_POST['tutoring_type']}
 Reception Preference: {$_POST['service_reception']}
 Subject Interests: {$_POST['subject']}
 Hours: {$_POST['hours']}
-" . $_POST['info_physical'] ? 'I would like to receive information regarding all courses offered in my town, city, or region\n': ''
-  . $_POST['info_virtual'] ? 'I would like to receive information regarding all courses offered virtually\n': '';
+$physical
+$virtual
+
+---
+This message was created from a user's form submission on savants.network
+";
 
 $headers = [
-  "From" => "Savants Network Form <automated-form@savants.network>",
-  "Reply-To" => "$name <{$_POST['email']}>",
+  "From" => "automated@savants.network",
+  "Reply-To" => "$name <{$_POST['email']}>"
 ];
-mail($to, $subject, $message, $headers);
-
-http_response_code(204);
+$success = mail($to, $subject, $message, $headers);
+header("X-Success: $success");
 
 ?>

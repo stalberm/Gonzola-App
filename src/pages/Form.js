@@ -21,7 +21,7 @@ function Form() {
     <div className="form-container">
       <form onSubmit={handleSubmit}>
         <div>
-          First Name:{" "}
+          First Name:
           <input
             type="text"
             placeholder="First Name"
@@ -29,7 +29,7 @@ function Form() {
             className="text-input"
             required
           />
-          Last Name:{" "}
+          Last Name:
           <input
             type="text"
             placeholder="Last Name"
@@ -38,7 +38,7 @@ function Form() {
           />
         </div>
         <div>
-          Address:{" "}
+          Address:
           <input
             type="text"
             placeholder="Address"
@@ -46,7 +46,7 @@ function Form() {
             className="text-input"
             required
           />
-          City:{" "}
+          City:
           <input
             type="text"
             placeholder="City"
@@ -54,7 +54,7 @@ function Form() {
             className="text-input"
             required
           />
-          State/Province:{" "}
+          State/Province:
           <input
             type="text"
             placeholder="State"
@@ -62,7 +62,7 @@ function Form() {
             className="text-input"
             required
           />
-          Zip:{" "}
+          Zip:
           <input
             type="text"
             placeholder="Zip"
@@ -71,7 +71,7 @@ function Form() {
             pattern="[0-9]+"
             required
           />
-          Country:{" "}
+          Country:
           <input
             type="text"
             placeholder="Country"
@@ -80,7 +80,7 @@ function Form() {
           />
         </div>
         <div>
-          Phone:{" "}
+          Phone:
           <input
             type="phone"
             placeholder="Phone"
@@ -90,7 +90,7 @@ function Form() {
           />
         </div>
         <div>
-          Email:{" "}
+          Email:
           <input
             type="text"
             placeholder="Email"
@@ -100,9 +100,9 @@ function Form() {
           />
         </div>
         <div>
-          What is the nature of the tutoring services you require? Private{" "}
+          What is the nature of the tutoring services you require? Private
           <input type="radio" name="tutoring_nature" value="Private" required />
-          Professional{" "}
+          Professional
           <input
             type="radio"
             name="tutoring_nature"
@@ -113,49 +113,49 @@ function Form() {
         <div>
           In which type of our tutoring services are you interested?
           <div>
-            One-on-One{" "}
+            One-on-One
             <input
               type="radio"
               name="tutoring_type"
               value="One-on-One"
               required
             />
-            Small Group{" "}
+            Small Group
             <input
               type="radio"
               name="tutoring_type"
               value="Small Group"
               required
             />
-            Cultural Consulting{" "}
+            Cultural Consulting
             <input
               type="radio"
               name="tutoring_type"
               value="Culture Consulting"
               required
             />
-            Professional Seminars{" "}
+            Professional Seminars
             <input
               type="radio"
               name="tutoring_type"
               value="Professional Seminars"
               required
             />
-            Conversations{" "}
+            Conversations
             <input
               type="radio"
               name="tutoring_type"
               value="Conversations"
               required
             />
-            Book and Film Club{" "}
+            Book and Film Club
             <input
               type="radio"
               name="tutoring_type"
               value="Book and Film Club"
               required
             />
-            Workshops{" "}
+            Workshops
             <input
               type="radio"
               name="tutoring_type"
@@ -167,28 +167,23 @@ function Form() {
         <div>
           How would you prefer to receive such services?
           <div>
-            Virtually{" "}
+            Virtually
             <input
               type="radio"
               value="Virtually"
               name="service_reception"
               required
             />
-            In Person{" "}
+            In Person
             <input
               type="radio"
               value="In Person"
               name="service_reception"
               required
             />
-            Mix{" "}
-            <input
-              type="radio"
-              value="Mix"
-              name="service_reception"
-              required
-            />
-            Doesn't Matter{" "}
+            Mix
+            <input type="radio" value="Mix" name="service_reception" required />
+            Doesn't Matter
             <input
               type="radio"
               value="Doesn't Matter"
