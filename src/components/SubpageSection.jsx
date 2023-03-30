@@ -15,11 +15,12 @@ export default function SubpageSection(props) {
         setIsShowing(true);
       }
     });
-    if (mark?.current) observer.observe(mark.current);
+    const element = mark?.current;
+    if (element) observer.observe(element);
     return () => {
-      if (mark?.current) observer.unobserve(mark.current);
+      if (element) observer.unobserve(element);
     };
-  }, [mark]);
+  });
 
   const imageContainer = (
     <div className="image-container">
