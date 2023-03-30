@@ -30,9 +30,15 @@
   margin: 0;
 }
 
-.nav-bar .item:hover {
-  padding-bottom: 0.25rem;
+.nav-bar .item[data-current="true"] {
+  font-weight: bold;
+  border-bottom: 0.2rem solid var(--theme-color-primary);
 }
+
+.nav-bar .item:hover .link {
+  color: white;
+}
+
 button {
   display: none;
 }

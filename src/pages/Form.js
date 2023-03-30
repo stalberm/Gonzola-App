@@ -9,7 +9,7 @@ function Form() {
       body: data,
     });
     if (response.ok) {
-      // TODO: go back to home page
+      // TODO: go back to home page or show success message
     } else {
       // TODO: show errors
       const errors = JSON.parse(response.headers.get("FormErrors"));
