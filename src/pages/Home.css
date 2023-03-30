@@ -33,19 +33,7 @@ h1 {
     margin: 0 12px;
   }
 
-  .subpage-section {
-    padding: 25px;
-  }
-
   .content {
     flex-flow: column;
-  }
-
-  .image-container {
-    order: 1;
-  }
-
-  .text-container {
-    order: 2;
   }
 }

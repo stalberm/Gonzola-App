@@ -11,7 +11,6 @@ export default function SubpageSection(props) {
   );
   const textContainer = (
     <div className="text-container">
-      <h2 className="subpage-title">{title}</h2>
       <p>{children}</p>
       <LearnButton path={path} />
     </div>
@@ -19,7 +18,8 @@ export default function SubpageSection(props) {
 
   return (
     <div className="subpage-section">
-      <div className="content">
+      <div className="content" data-orientation={orientation}>
+        <h2 className="subpage-title">{title}</h2>
         {orientation === "left" ? imageContainer : textContainer}
         {orientation === "left" ? textContainer : imageContainer}
       </div>
