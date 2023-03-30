@@ -38,7 +38,7 @@ function Home() {
             path="/about"
             orientation="right"
           >
-            <strong>SAVANTS</strong> is an exclusive space where teaching
+            <strong> SAVANTS </strong> is an exclusive space where teaching
             professionals with the highest qualifications offer private tutoring
             services to extremely engaged students. All our programs are unique,
             tailored specifically to your schedule, pace, and curiosities. We
@@ -74,7 +74,7 @@ function Home() {
             path="/virtual"
             orientation="right"
           >
-            At <strong>SAVANTS</strong> we offer virtual custom courses in any
+            At <strong> SAVANTS </strong> we offer virtual custom courses in any
             conceivable subject virtually. Whatever your need, whatever your
             curiosity, we are here to provide a curated educational encounter.
             Across time zones and space, our tutors and students meet online to
@@ -89,7 +89,7 @@ function Home() {
             path="/classic"
             orientation="left"
           >
-            At <strong>SAVANTS</strong>, we stay true to our roots in the Arts
+            At <strong> SAVANTS </strong>, we stay true to our roots in the Arts
             and Humanities, and we pride ourselves in offering courses of
             incomparable quality in these areas. Our master classes in cinema,
             languages and literatures constitute our core, classic courses; they
@@ -104,14 +104,14 @@ function Home() {
             path="/seminars"
             orientation="right"
           >
-            The professional <strong>SAVANTS</strong> seminars are designed to
+            The professional <strong> SAVANTS </strong> seminars are designed to
             provide actual, accountable results and real value at a fast-paced
             rhythm. Our professional students have excelled in their careers so
             far, but now need to more fully master a particular subject (usually
             a foreign language, but sometimes a specific aspect of business).
             Typically sponsored by companies directly, the
-            <strong>SAVANTS SEMINARS</strong> are always custom built around the
-            particular needs students or small groups. These courses engage
+            <strong> SAVANTS SEMINARS </strong> are always custom built around
+            the particular needs students or small groups. These courses engage
             business-related issues and practices from the very first meeting.
           </SubpageSection>
           <SubpageSection
@@ -134,11 +134,11 @@ function Home() {
             path="/conversations"
             orientation="right"
           >
-            From intermediate to advanced, at <strong>SAVANTS</strong>, we offer
-            conversation courses in almost any language to students of all ages
-            almost anywhere on Earth. As much as we value online communications,
-            we make every effort to offer such courses in a person-to-person
-            mode.
+            From intermediate to advanced, at <strong> SAVANTS </strong>, we
+            offer conversation courses in almost any language to students of all
+            ages almost anywhere on Earth. As much as we value online
+            communications, we make every effort to offer such courses in a
+            person-to-person mode.
           </SubpageSection>
           <SubpageSection
             title="Savants Book and Film Clubs"
@@ -147,9 +147,9 @@ function Home() {
             path="/clubs"
             orientation="left"
           >
-            Our <strong>SAVANTS</strong> BOOK AND FILM CLUBS are one of our most
-            popular learning opportunities. Have you ever wanted an expert to
-            walk you through the nuances of French New Wave cinema or German
+            Our <strong> SAVANTS </strong> BOOK AND FILM CLUBS are one of our
+            most popular learning opportunities. Have you ever wanted an expert
+            to walk you through the nuances of French New Wave cinema or German
             Expressionism? Are you looking for someone to help you curate a
             crash course in Classic Hollywood? Curious about Charles Dickens or
             Jane Austen but don’t know where to start? Or maybe you’re looking
@@ -170,7 +170,8 @@ function Home() {
             orientation="right"
           >
             Young, ambitious writers as well as seasoned professionals seek us
-            out to deepen and develop their skills. Our <strong>SAVANTS</strong>
+            out to deepen and develop their skills. Our{" "}
+            <strong> SAVANTS </strong>
             WRITING WORKSHOPS provide high-quality feedback from accomplished
             authors. Whether you want to hone your professional writing skills
             or produce a manuscript of original poetry, our writing workshops
