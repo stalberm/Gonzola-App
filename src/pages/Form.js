@@ -178,21 +178,21 @@ function Form() {
             <input
               type="radio"
               value="In Person"
-              name="service_receiption"
+              name="service_reception"
               required
             />
             Mix{" "}
             <input
               type="radio"
               value="Mix"
-              name="service_receiption"
+              name="service_reception"
               required
             />
             Doesn't Matter{" "}
             <input
               type="radio"
               value="Doesn't Matter"
-              name="service_receiption"
+              name="service_reception"
               required
             />
           </div>
