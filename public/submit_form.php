@@ -68,5 +68,14 @@ Reception Preference: {$_POST['service_reception']}
 Subject Interests: {$_POST['subject']}
 Hours: {$_POST['hours']}
 " . $_POST['info_physical'] ? 'I would like to receive information regarding all courses offered in my town, city, or region\n': ''
-  . $_POST['info_virtual'] ? 'I would like to receive information regarding all courses offered virtually\n': ''
+  . $_POST['info_virtual'] ? 'I would like to receive information regarding all courses offered virtually\n': '';
+
+$headers = [
+  "From" => "Savants Network Form <automated-form@savants.network>",
+  "Reply-To" => "$name <{$_POST['email']}>",
+];
+mail($to, $subject, $message, $headers);
+
+http_response_code(204);
+
 ?>
