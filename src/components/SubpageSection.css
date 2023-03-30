@@ -26,12 +26,17 @@
 }
 
 .image-container img {
-  height: 300px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 0.5rem;
 }
 
 .subpage-title {
   text-transform: uppercase;
   grid-row-start: 1;
+  margin: 0;
+  margin-bottom: 0.25rem;
 }
 [data-orientation='right'] .subpage-title {
   grid-column-start: 1;
@@ -46,7 +51,7 @@
   grid-row-start: 2;
 }
 
-@media screen and (max-width: 512px) {
+@media screen and (max-width: 480px) {
 
   .subpage-section .content {
     grid-template-columns: 1fr;
@@ -64,6 +69,12 @@
 
   .image-container {
     grid-row-start: 2;
+  }
+
+  .image-container img {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .text-container {
