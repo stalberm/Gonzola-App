@@ -18,7 +18,7 @@ export default function SubpageSection(props) {
     if (mark?.current) observer.observe(mark.current);
     return () => {
       if (mark?.current) observer.unobserve(mark.current);
-    }
+    };
   }, [mark]);
 
   const imageContainer = (
@@ -34,11 +34,7 @@ export default function SubpageSection(props) {
   );
 
   return (
-    <div className={
-      `subpage-section ${
-        isShowing ? "show" : ""
-      }`
-    }>
+    <div className={`subpage-section ${isShowing ? "show" : ""}`}>
       <div className="content" data-orientation={orientation}>
         <h2 className="subpage-title">{title}</h2>
         {orientation === "left" ? imageContainer : textContainer}
