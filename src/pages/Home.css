@@ -1,5 +1,6 @@
 .main-container {
-  margin: 0 288px;
+  margin: 0 18rem;
+  max-width: 60rem;
 }
 
 .main-container #join-button {
@@ -10,27 +11,33 @@ h1 {
   text-align: center;
 }
 
+@media screen and (min-width: 96rem) {
+  .main-container {
+    margin: 0 auto;
+  }
+}
+
 @media screen and (max-width: 1080px) {
   .main-container {
-    margin: 0 144px;
+    margin: 0 9rem;
   }
 }
 
 @media screen and (max-width: 810px) {
   .main-container {
-    margin: 0 32px;
+    margin: 0 2rem;
   }
 }
 
 @media screen and (max-width: 600px) {
   .main-container {
-    margin: 0 24px;
+    margin: 0 1.5rem;
   }
 }
 
 @media screen and (max-width: 512px) {
   .main-container {
-    margin: 0 12px;
+    margin: 0 0.75rem;
   }
 
   .content {

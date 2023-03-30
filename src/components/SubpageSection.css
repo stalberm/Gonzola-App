@@ -15,7 +15,7 @@
 .subpage-section {
   display: flex;
   flex-direction: column;
-  padding: 50px 0;
+  padding: 3rem 0;
   align-items: center;
   position: relative;
   visibility: hidden;
@@ -85,7 +85,7 @@
   }
 
   .subpage-section {
-    padding: 25px;
+    padding: 1.5rem;
   }
 
   .image-container {

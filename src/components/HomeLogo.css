@@ -30,12 +30,10 @@
   margin-bottom: 3rem;
 }
 .logo-half {
-  width: 9rem;
   display: inline-block;
 }
 .icon-container {
   margin: auto;
-  width: 19rem;
 }
 .logo-half {
   animation-timing-function: cubic-bezier(0.3, -0.01, 0.82, 0.19);
@@ -44,7 +42,6 @@
   animation-fill-mode: forwards;
 }
 .logo-half.left {
-  margin-right: 1rem;
   transform: translateX(-50vw);
   animation-name: logo_enter_left;
 }
@@ -61,6 +58,76 @@
   animation-timing-function: cubic-bezier(0.3, -0.01, 0.82, 0.19);
 }
 
+@media screen and (min-width: 480px) {
+  .logo-half {
+    width: 4rem;
+  }
+  .logo-half.left {
+    margin-right: 0.4rem;
+  }
+  .icon-container {
+    width: 8.4rem;
+  }
+  .home-logo h1 {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 800px) {
+  .logo-half {
+    width: 6rem;
+  }
+  .logo-half.left {
+    margin-right: 0.6rem;
+  }
+  .icon-container {
+    width: 12.6rem;
+  }
+  .home-logo h1 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .logo-half {
+    width: 9rem;
+  }
+  .logo-half.left {
+    margin-right: 0.9rem;
+  }
+  .icon-container {
+    width: 18.9rem;
+  }
+  .home-logo h1 {
+    font-size: 1.75rem;
+  }
+}
+@media screen and (min-width: 1480px) {
+  .logo-half {
+    width: 12rem;
+  }
+  .logo-half.left {
+    margin-right: 1.2rem;
+  }
+  .icon-container {
+    width: 25.2rem;
+  }
+  .home-logo h1 {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 2500px) {
+  .logo-half {
+    width: 20rem;
+  }
+  .logo-half.left {
+    margin-right: 2rem;
+  }
+  .icon-container {
+    width: 42rem;
+  }
+  .home-logo h1 {
+    font-size: 3.5rem;
+  }
+}
 @media screen and (max-width: 480px) {
   .logo-half {
     width: 7.5rem;
