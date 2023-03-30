@@ -1,8 +1,11 @@
-import { setPageTitle } from "../util";
+import { getPageTitle } from "../util";
+import { Helmet } from "react-helmet";
 
 function Seminars() {
-  setPageTitle("Professional Seminars");
-  return (
+  return <>
+    <Helmet>
+      <title>{getPageTitle("Professional Seminars")}</title>
+    </Helmet>
     <div>
       <h1>Seminars</h1>
       <p>
@@ -36,7 +39,7 @@ function Seminars() {
         schedules as well, beginning with your first master class.
       </p>
     </div>
-  );
+  </>;
 }
 
 export default Seminars;

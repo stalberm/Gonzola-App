@@ -1,8 +1,11 @@
-import { setPageTitle } from "../util";
+import { getPageTitle } from "../util";
+import Helmet from "react-helmet";
 
 function About() {
-  setPageTitle("About Us");
-  return (
+  return <>
+    <Helmet>
+      <title>{getPageTitle("About Us")}</title>
+    </Helmet>
     <div>
       <h1>About Us</h1>
       <p>
@@ -15,7 +18,7 @@ function About() {
         offer small group classes on occasion.
       </p>
     </div>
-  );
+  </>;
 }
 
 export default About;

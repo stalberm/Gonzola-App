@@ -1,8 +1,11 @@
-import { setPageTitle } from "../util";
+import { getPageTitle } from "../util";
+import { Helmet } from "react-helmet";
 
 function Workshop() {
-  setPageTitle("Writing Workshops");
-  return (
+  return <>
+    <Helmet>
+      <title>{getPageTitle("Writing Workshops")}</title>
+    </Helmet>
     <div>
       <h1>Workshop</h1>
       <p>
@@ -20,7 +23,7 @@ function Workshop() {
         communities as we can.
       </p>
     </div>
-  );
+  </>;
 }
 
 export default Workshop;

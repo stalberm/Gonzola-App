@@ -1,8 +1,11 @@
-import { setPageTitle } from "../util";
+import { getPageTitle } from "../util";
+import { Helmet } from "react-helmet";
 
 function Consulting() {
-  setPageTitle("Culture Consulting");
-  return (
+  return <>
+    <Helmet>
+      <title>{getPageTitle("Culture Consulting")}</title>
+    </Helmet>
     <div>
       <h1>Consulting</h1>
       <p>
@@ -40,7 +43,7 @@ function Consulting() {
         culture or country of study.
       </p>
     </div>
-  );
+  </>;
 }
 
 export default Consulting;

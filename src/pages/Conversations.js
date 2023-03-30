@@ -1,8 +1,11 @@
-import { setPageTitle } from "../util";
+import { getPageTitle } from "../util";
+import { Helmet } from "react-helmet";
 
 function Conversations() {
-  setPageTitle("Conversations");
-  return (
+  return <>
+    <Helmet>
+      <title>{getPageTitle("Conversations")}</title>
+    </Helmet>
     <div>
       <h1>Conversations</h1>
       <p>
@@ -21,7 +24,7 @@ function Conversations() {
         nuanced communicative techniques and tactics.
       </p>
     </div>
-  );
+  </>;
 }
 
 export default Conversations;

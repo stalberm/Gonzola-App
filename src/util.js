@@ -1,8 +1,8 @@
 export const PAGE_TITLE = "Savants Network";
-export function setPageTitle(title) {
+export function getPageTitle(title) {
   if (arguments.length === 0) {
-    document.title = PAGE_TITLE;
+    return PAGE_TITLE;
   } else {
-    document.title = `${PAGE_TITLE} | ${title}`;
+    return `${PAGE_TITLE} | ${title}`;
   }
 }

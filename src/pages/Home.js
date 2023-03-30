@@ -1,16 +1,19 @@
+import Helmet from "react-helmet";
 import HomeLogo from "../components/HomeLogo";
 import LearnButton from "../components/LearnButton";
 import SubpageSection from "../components/SubpageSection";
-import { setPageTitle } from "../util";
+import { getPageTitle } from "../util";
 import "./Home.css";
 
 function Home() {
-  setPageTitle();
   document.body.style.overflowX = "hidden";
   setTimeout(() => {
     document.body.style.overflowX = "";
   }, 1000);
-  return (
+  return <>
+    <Helmet>
+      <title>{getPageTitle()}</title>
+    </Helmet>
     <div>
       <div className="main-container">
         <HomeLogo />
@@ -162,7 +165,7 @@ function Home() {
         />
       </div>
     </div>
-  );
+  </>;
 }
 
 export default Home;

@@ -1,8 +1,11 @@
-import { setPageTitle } from "../util";
+import { getPageTitle } from "../util";
+import { Helmet } from "react-helmet";
 
 function Virtual() {
-  setPageTitle("Custom Virtual Classes");
-  return (
+  return <>
+    <Helmet>
+      <title>{getPageTitle("Custom Virtual Classes")}</title>
+    </Helmet>
     <div>
       <h1>Custom Virtual Classes</h1>
       <p>
@@ -25,7 +28,7 @@ function Virtual() {
         adventure custom created for you.
       </p>
     </div>
-  );
+  </>;
 }
 
 export default Virtual;

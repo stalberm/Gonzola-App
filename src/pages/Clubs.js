@@ -1,8 +1,11 @@
-import { setPageTitle } from "../util";
+import { getPageTitle } from "../util";
+import { Helmet } from "react-helmet";
 
 function Clubs() {
-  setPageTitle("Clubs");
-  return (
+  return <>
+    <Helmet>
+      <title>{getPageTitle("Clubs")}</title>
+    </Helmet>
     <div>
       <h1>Clubs</h1>
       <p>
@@ -28,7 +31,7 @@ function Clubs() {
         multifaceted way.
       </p>
     </div>
-  );
+  </>;
 }
 
 export default Clubs;

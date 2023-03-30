@@ -1,8 +1,11 @@
-import { setPageTitle } from "../util";
+import { getPageTitle } from "../util";
+import { Helmet } from "react-helmet";
 
 function Classic() {
-  setPageTitle("Classic Classes");
-  return (
+  return <>
+    <Helmet>
+      <title>{getPageTitle("Classic Classes")}</title>
+    </Helmet>
     <div>
       <h1>Classic Classes</h1>
       <p>
@@ -17,7 +20,7 @@ function Classic() {
         as many locations as we can.
       </p>
     </div>
-  );
+  </>;
 }
 
 export default Classic;

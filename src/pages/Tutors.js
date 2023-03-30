@@ -1,8 +1,11 @@
-import { setPageTitle } from "../util";
+import { getPageTitle } from "../util";
+import { Helmet } from "react-helmet";
 
 function Tutors() {
-  setPageTitle("Tutors");
-  return (
+  return <>
+    <Helmet>
+      <title>{getPageTitle("Tutors")}</title>
+    </Helmet>
     <div>
       <h1>Tutors</h1>
       <p>
@@ -34,7 +37,7 @@ function Tutors() {
         knowledge and a passion to explore new avenues of wisdom.
       </p>
     </div>
-  );
+  </>;
 }
 
 export default Tutors;
