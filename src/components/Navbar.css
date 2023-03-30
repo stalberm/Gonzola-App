@@ -50,7 +50,6 @@ button {
 
 .nav-bar #mobile {
   display: block;
-  flex-direction: column;
   text-align: center;
   overflow-y: auto;
   position: absolute;
