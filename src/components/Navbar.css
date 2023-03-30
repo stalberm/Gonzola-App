@@ -1,4 +1,4 @@
-body[data-modal-open='true'] {
+body[data-modal-open="true"] {
   overflow: hidden;
 }
 

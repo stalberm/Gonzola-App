@@ -8,8 +8,8 @@
 }
 
 .subpage-section.show {
-  visibility: visible;
   animation: subPageFadeIn 0.5s ease-in-out;
+  animation-fill-mode: forwards;
 }
 
 .subpage-section {
@@ -18,7 +18,7 @@
   padding: 3rem 0;
   align-items: center;
   position: relative;
-  visibility: hidden;
+  opacity: 0;
 }
 
 .subpage-section .content {
