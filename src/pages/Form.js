@@ -11,8 +11,8 @@ function Form() {
     <div className="form-container">
       <form onSubmit={handleSubmit}>
         <div>
-          First Name: <input type="text" placeholder="First Name" name="first" className="text-input" />
-          Last Name: <input type="text" placeholder="Last Name" name="last" className="text-input" />
+          First Name: <input type="text" placeholder="First Name" name="first_name" className="text-input" />
+          Last Name: <input type="text" placeholder="Last Name" name="last_name" className="text-input" />
         </div>
         <div>
           Address: <input type="text" placeholder="Address" name="address" className="text-input" />
@@ -29,28 +29,28 @@ function Form() {
         </div>
         <div>
           What is the nature of the tutoring services you require?
-          Private <input type="checkbox" name="private" />
-          Professional <input type="checkbox" name="professional" />
+          Private <input type="radio" name="tutoring_nature" />
+          Professional <input type="radio" name="tutoring_nature" />
         </div>
         <div>
           In which type of our tutoring services are you interested?
           <div>
-            One-on-One <input type="checkbox" name="type-one" />
-            Small Group <input type="checkbox" name="type-group" />
-            Cultural Consulting <input type="checkbox" name="type-consult" />
-            Professional Seminars <input type="checkbox" name="type-seminar" />
-            Conversations <input type="checkbox" name="type-conversation" />
-            Book and Film Club <input type="checkbox" name="type-club" />
-            Workshops <input type="checkbox" name="type-workshop" />
+            One-on-One <input type="radio" name="tutoring_type" />
+            Small Group <input type="radio" name="tutoring_type" />
+            Cultural Consulting <input type="radio" name="tutoring_type" />
+            Professional Seminars <input type="radio" name="tutoring_type" />
+            Conversations <input type="radio" name="tutoring_type" />
+            Book and Film Club <input type="radio" name="tutoring_type" />
+            Workshops <input type="radio" name="tutoring_type" />
           </div>
         </div>
         <div>
           How would you prefer to receive such services?
           <div>
-            Virtually <input type="checkbox" name="private" />
-            In Person <input type="checkbox" name="professional" />
-            Mix <input type="checkbox" name="professional" />
-            Doesn't Matter <input type="checkbox" name="professional" />
+            Virtually <input type="radio" name="service_receiption" />
+            In Person <input type="radio" name="service_receiption" />
+            Mix <input type="radio" name="service_receiption" />
+            Doesn't Matter <input type="radio" name="service_receiption" />
           </div>
         </div>
         <div>
@@ -59,7 +59,7 @@ function Form() {
         </div>
         <div>
           How many hours could you devote to studying for each meeting?
-          <input type="text" name="hours" className="text-input" />
+          <input type="number" name="hours" className="text-input" />
         </div>
         <div>
           I would like to receive information regarding all courses offered in my town, city, or region
