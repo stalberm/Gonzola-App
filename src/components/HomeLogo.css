@@ -27,14 +27,15 @@
   min-height: calc(100vh - 7rem);
   display: grid;
   align-items: center;
+  margin-bottom: 3rem;
 }
 .logo-half {
-  width: 10rem;
+  width: 9rem;
   display: inline-block;
 }
 .icon-container {
   margin: auto;
-  width: 21rem;
+  width: 19rem;
 }
 .logo-half {
   animation-timing-function: cubic-bezier(0.3, -0.01, 0.82, 0.19);
