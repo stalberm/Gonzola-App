@@ -57,15 +57,15 @@ function Home() {
             Our tutors are drawn from an exclusive group of teaching
             professionals from around the world. Our entry requirements are
             extremely strict; we source our colleagues from the most prestigious
-            institutions. Our tutors must have at least one degree from one of
-            the top ten universities in the world (according to Shanghai school
-            rankings) and/or are part of the top ten academic programs in their
-            discipline. They are highly esteemed in their fields of expertise
-            everywhere. But that’s not all. In addition to notable degrees, our
-            tutors are well-respected teachers with proven classroom excellence.
-            We use PROT (peer-review-of-teaching) evaluations as well as student
-            evaluations to vet our tutors. Most of them have won multiple
-            teaching awards.
+            institutions. <br /> Our tutors must have at least one degree from
+            one of the top ten universities in the world (according to Shanghai
+            school rankings) and/or are part of the top ten academic programs in
+            their discipline. They are highly esteemed in their fields of
+            expertise everywhere. <br /> But that’s not all. In addition to
+            notable degrees, our tutors are well-respected teachers with proven
+            classroom excellence. We use PROT (peer-review-of-teaching)
+            evaluations as well as student evaluations to vet our tutors. Most
+            of them have won multiple teaching awards.
           </SubpageSection>
           <SubpageSection
             title="Savant Custom Courses"
@@ -109,7 +109,7 @@ function Home() {
             rhythm. Our professional students have excelled in their careers so
             far, but now need to more fully master a particular subject (usually
             a foreign language, but sometimes a specific aspect of business).
-            Typically sponsored by companies directly, the
+            <br /> Typically sponsored by companies directly, the
             <strong> SAVANTS SEMINARS </strong> are always custom built around
             the particular needs students or small groups. These courses engage
             business-related issues and practices from the very first meeting.
@@ -148,19 +148,19 @@ function Home() {
             orientation="left"
           >
             Our <strong> SAVANTS </strong> BOOK AND FILM CLUBS are one of our
-            most popular learning opportunities. Have you ever wanted an expert
-            to walk you through the nuances of French New Wave cinema or German
-            Expressionism? Are you looking for someone to help you curate a
-            crash course in Classic Hollywood? Curious about Charles Dickens or
-            Jane Austen but don’t know where to start? Or maybe you’re looking
-            to brush up on classical Chinese poetry or the best of current Young
-            Adult fiction? Want to debate The Book vs. The Movie Version of a
-            story you love? We’ve got you. Typically offered in a six-week
-            format, in our book and film clubs, tutor and student create a
-            tailor-made program designed to meet your interests and prior
-            training. We frequently offer these experiences for families or
-            groups of friends looking to take their next gathering to the next
-            level.
+            most popular learning opportunities. <br />
+            Have you ever wanted an expert to walk you through the nuances of
+            French New Wave cinema or German Expressionism? Are you looking for
+            someone to help you curate a crash course in Classic Hollywood?
+            Curious about Charles Dickens or Jane Austen but don’t know where to
+            start? Or maybe you’re looking to brush up on classical Chinese
+            poetry or the best of current Young Adult fiction? Want to debate
+            The Book vs. The Movie Version of a story you love? We’ve got you.
+            <br /> Typically offered in a six-week format, in our book and film
+            clubs, tutor and student create a tailor-made program designed to
+            meet your interests and prior training. We frequently offer these
+            experiences for families or groups of friends looking to take their
+            next gathering to the next level.
           </SubpageSection>
           <SubpageSection
             title="Savants Writing Workshops"
@@ -170,12 +170,12 @@ function Home() {
             orientation="right"
           >
             Young, ambitious writers as well as seasoned professionals seek us
-            out to deepen and develop their skills. Our{" "}
-            <strong> SAVANTS </strong>
-            WRITING WORKSHOPS provide high-quality feedback from accomplished
-            authors. Whether you want to hone your professional writing skills
-            or produce a manuscript of original poetry, our writing workshops
-            offer all participants a challenging and rewarding experience.
+            out to deepen and develop their skills. Our
+            <strong> SAVANTS </strong> WRITING WORKSHOPS provide high-quality
+            feedback from accomplished authors. Whether you want to hone your
+            professional writing skills or produce a manuscript of original
+            poetry, our writing workshops offer all participants a challenging
+            and rewarding experience.
           </SubpageSection>
           <LearnButton
             path="/form"
