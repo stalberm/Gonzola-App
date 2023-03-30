@@ -10,35 +10,6 @@ h1 {
   text-align: center;
 }
 
-.subpage-section {
-  display: flex;
-  flex-direction: column;
-  padding: 50px 0;
-  align-items: center;
-}
-
-.subpage-section .content {
-  display: flex;
-}
-
-.text-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  flex: 50%;
-}
-
-.image-container {
-  display: flex;
-  flex: 50%;
-  justify-content: center;
-  align-items: center;
-}
-
-.image-container img {
-  height: 300px;
-}
-
 @media screen and (max-width: 1080px) {
   .main-container {
     margin: 0 144px;
