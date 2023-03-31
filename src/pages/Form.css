@@ -1,11 +1,43 @@
-.text-input {
-  all: unset;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
+.form-container {
+  display: flex;
+  justify-content: center;
 }
 
-.text-input:focus {
+.text-input {
   all: unset;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
+  border-style: solid;
+  border-width: 1px;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.entry {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 1rem;
+  width: 100%;
+}
+
+.selection {
+  display: flex;
+  margin: 1rem;
+  flex-direction: column;
+}
+
+.checkbox {
+  display: flex;
+  margin: 1rem;
+  flex-direction: row;
+}
+
+.options input {
+  margin-right: 1rem;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
 }
