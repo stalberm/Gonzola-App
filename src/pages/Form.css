@@ -41,3 +41,15 @@
   margin-left: 0.5rem;
   margin-top: 0.5rem;
 }
+
+.submit-button {
+  background-color: var(--theme-color-secondary);
+  color: var(--theme-color-primary);
+  border: none;
+  border-radius: 5px;
+  width: 25%;
+  margin: 2rem 0;
+  height: 2rem;
+  font-size: 1.25rem;
+}
+

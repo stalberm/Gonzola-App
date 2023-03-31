@@ -220,13 +220,17 @@ function Form() {
             />
           </div>
         </div>
-        <div className="entry">
-          What subject or subjects are you interested in studying?
-          <input type="text" name="subject" className="text-input" required />
+        <div className="row">
+          <div className="entry">
+            What subject or subjects are you interested in studying?
+            <input type="text" name="subject" className="text-input" required />
+          </div>
         </div>
-        <div className="entry">
-          How many hours could you devote to studying for each meeting?
-          <input type="number" name="hours" className="text-input" />
+        <div className="row">
+          <div className="entry">
+            How many hours could you devote to studying for each meeting?
+            <input type="number" name="hours" className="text-input" />
+          </div>
         </div>
         <div className="checkbox">
           <div className="options">
@@ -242,7 +246,9 @@ function Form() {
             <input type="checkbox" name="info_virtual" />
           </div>
         </div>
-        <input type="submit" value="Submit" />
+        <div className="row">
+          <input type="submit" value="Submit" className="submit-button"/>
+        </div>
       </form>
     </div>
   );
