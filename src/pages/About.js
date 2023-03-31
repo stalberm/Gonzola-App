@@ -25,12 +25,12 @@ function About() {
       </Helmet>
       <div className="main-container">
         <SubpageSection
-            title={"About Us"}
-            image="Jose.png"
-            imageAlt="Jose Echegaray Portrait"
-            path="/about"
-            orientation="right"
-            fullPage={true}
+          title={"About Us"}
+          image="Jose.png"
+          imageAlt="Jose Echegaray Portrait"
+          path="/about"
+          orientation="right"
+          fullPage={true}
         >
           SAVANTS is an exclusive space where teaching professionals with the
           highest qualifications offer private tutoring services to extremely
