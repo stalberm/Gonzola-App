@@ -20,99 +20,127 @@ function Form() {
   return (
     <div className="form-container">
       <form onSubmit={handleSubmit}>
-        <div>
-          First Name:
-          <input
-            type="text"
-            placeholder="First Name"
-            name="first_name"
-            className="text-input"
-            required
-          />
-          Last Name:
-          <input
-            type="text"
-            placeholder="Last Name"
-            name="last_name"
-            className="text-input"
-          />
+        <div className="row">
+          <div className="entry">
+            <label for="first_name">First name</label>
+            <input
+              type="text"
+              placeholder="First Name"
+              name="first_name"
+              className="text-input"
+              required
+            />
+          </div>
+          <div className="entry">
+            <label for="last_name">Last name</label>
+            <input
+              type="text"
+              placeholder="Last Name"
+              name="last_name"
+              className="text-input"
+            />
+          </div>
+        </div>  
+        <div className="row">
+          <div className="entry">
+            <label for="phone">Phone</label>
+            <input
+              type="phone"
+              placeholder="Phone"
+              name="phone"
+              className="text-input"
+              pattern="^\s*(?:\+?(\d{1,3}))?[-. (]*(\d{3})[-. )]*(\d{3})[-. ]*(\d{4})(?: *x(\d+))?\s*$"
+            />
+          </div>
+          <div className="entry">
+            <label for="email">Email</label>
+            <input
+              type="text"
+              placeholder="Email"
+              name="email"
+              className="text-input"
+              required
+            />
+          </div>
         </div>
-        <div>
-          Address:
-          <input
-            type="text"
-            placeholder="Address"
-            name="address"
-            className="text-input"
-            required
-          />
-          City:
-          <input
-            type="text"
-            placeholder="City"
-            name="city"
-            className="text-input"
-            required
-          />
-          State/Province:
-          <input
-            type="text"
-            placeholder="State"
-            name="state"
-            className="text-input"
-            required
-          />
-          Zip:
-          <input
-            type="text"
-            placeholder="Zip"
-            name="zip"
-            className="text-input"
-            pattern="[0-9]+"
-            required
-          />
-          Country:
-          <input
-            type="text"
-            placeholder="Country"
-            name="country"
-            className="text-input"
-          />
+        <div className="row">
+          <div className="entry">
+            <label for="address">Address</label>
+            <input
+              type="text"
+              placeholder="Address"
+              name="address"
+              className="text-input"
+              required
+            />
+          </div>
+          <div className="entry">
+            <label for="city">City</label>
+            <input
+              type="text"
+              placeholder="City"
+              name="city"
+              className="text-input"
+              required
+            />
+          </div>
         </div>
-        <div>
-          Phone:
-          <input
-            type="phone"
-            placeholder="Phone"
-            name="phone"
-            className="text-input"
-            pattern="^\s*(?:\+?(\d{1,3}))?[-. (]*(\d{3})[-. )]*(\d{3})[-. ]*(\d{4})(?: *x(\d+))?\s*$"
-          />
+        <div className="row">
+          <div className="entry">
+            <label for="state">State/Province</label> 
+            <input
+              type="text"
+              placeholder="State"
+              name="state"
+              className="text-input"
+              required
+            />
+          </div>
+          <div className="entry">
+            <label for="zip">Zip</label>
+            <input
+              type="text"
+              placeholder="Zip"
+              name="zip"
+              className="text-input"
+              pattern="[0-9]+"
+              required
+            />
+          </div>
         </div>
-        <div>
-          Email:
-          <input
-            type="text"
-            placeholder="Email"
-            name="email"
-            className="text-input"
-            required
-          />
+        <div className="row">
+          <div className="entry">
+            <label for="country">Country</label>
+            <input
+              type="text"
+              placeholder="Country"
+              name="country"
+              className="text-input"
+            />
+          </div>
         </div>
-        <div>
-          What is the nature of the tutoring services you require? Private
-          <input type="radio" name="tutoring_nature" value="Private" required />
-          Professional
-          <input
-            type="radio"
-            name="tutoring_nature"
-            value="Professional"
-            required
-          />
+        <div className="selection">
+          What is the nature of the tutoring services you require?
+          <div className="options">
+            Private
+            <input 
+              type="radio" 
+              name="tutoring_nature" 
+              value="Private" 
+              required 
+            />
+            Professional
+            <input
+              type="radio"
+              name="tutoring_nature"
+              value="Professional"
+              required
+            />
+          </div>
         </div>
-        <div>
-          In which type of our tutoring services are you interested?
-          <div>
+        <div className="selection">
+          In which type of our tutoring services are you interested? 
+          <div className="options">
             One-on-One
             <input
               type="radio"
@@ -164,9 +192,9 @@ function Form() {
             />
           </div>
         </div>
-        <div>
+        <div className="selection">
           How would you prefer to receive such services?
-          <div>
+          <div className="options">
             Virtually
             <input
               type="radio"
@@ -192,23 +220,27 @@ function Form() {
             />
           </div>
         </div>
-        <div>
+        <div className="entry">
           What subject or subjects are you interested in studying?
           <input type="text" name="subject" className="text-input" required />
         </div>
-        <div>
+        <div className="entry">
           How many hours could you devote to studying for each meeting?
           <input type="number" name="hours" className="text-input" />
         </div>
-        <div>
-          I would like to receive information regarding all courses offered in
-          my town, city, or region
-          <input type="checkbox" name="info_physical" />
+        <div className="checkbox">
+          <div className="options">
+            I would like to receive information regarding all courses offered in
+            my town, city, or region
+            <input type="checkbox" name="info_physical" />
+          </div>
         </div>
-        <div>
-          I would like to receive information regarding all courses offered
-          virtually
-          <input type="checkbox" name="info_virtual" />
+        <div className="checkbox">
+          <div className="options">
+            I would like to receive information regarding all courses offered
+            virtually
+            <input type="checkbox" name="info_virtual" />
+          </div>
         </div>
         <input type="submit" value="Submit" />
       </form>
