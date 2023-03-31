@@ -1,5 +1,6 @@
 import { getPageTitle } from "../util";
 import { Helmet } from "react-helmet";
+import SubpageSection from "../components/SubpageSection";
 
 function Virtual() {
   const pageTitle = getPageTitle("Custom Virtual Classes");
@@ -21,11 +22,15 @@ function Virtual() {
           content="https://savants.network/images/gabriel.png"
         />
       </Helmet>
-      <div>
-        <h1>Custom Virtual Classes</h1>
-        <p>
-          SAVANTS CUSTOM COURSES
-          <br />
+      <div className="main-container">
+        <SubpageSection
+          title="Savant Custom Courses"
+          image="Gabriel.png"
+          imageAlt="Gabriel Marquez Portrait"
+          path="/virtual"
+          orientation="right"
+          fullPage={true}
+        >
           At SAVANTS we offer virtual custom courses in any conceivable subject
           virtually. Whatever your need, whatever your curiosity, we are here to
           provide a curated educational encounter. Across time zones and space,
@@ -41,7 +46,7 @@ function Virtual() {
           community-based perspectives. From anthropology, acarology or apiology
           to volcanology, xenobiology or zoology, at SAVANTS you will find a
           tutor to guide you into a learning adventure custom created for you.
-        </p>
+        </SubpageSection>
       </div>
     </>
   );

@@ -1,5 +1,6 @@
 import { getPageTitle } from "../util";
 import { Helmet } from "react-helmet";
+import SubpageSection from "../components/SubpageSection";
 
 function Workshop() {
   const pageTitle = getPageTitle("Writing Workshops");
@@ -21,11 +22,15 @@ function Workshop() {
           content="https://savants.network/images/erwin.png"
         />
       </Helmet>
-      <div>
-        <h1>Workshop</h1>
-        <p>
-          SAVANTS WRITING WORKSHOPS
-          <br />
+      <div className="main-container">
+        <SubpageSection
+          title="Savants Writing Workshops"
+          image="Erwin.png"
+          imageAlt="Erwin Schrodinger Portrait"
+          path="/workshop"
+          orientation="right"
+          fullPage={true}
+        >
           Young, ambitious writers as well as seasoned professionals seek us out
           to deepen and develop their skills. Our SAVANTS WRITING WORKSHOPS
           provide high-quality feedback from accomplished authors. Whether you
@@ -36,7 +41,7 @@ function Workshop() {
           senior SAVANTS tutors who are experts in these fields. As part of our
           classic SAVANTS programs, we offer these courses face-to-face in as
           many communities as we can.
-        </p>
+        </SubpageSection>
       </div>
     </>
   );

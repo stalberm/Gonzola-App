@@ -1,5 +1,6 @@
 import { getPageTitle } from "../util";
 import { Helmet } from "react-helmet";
+import SubpageSection from "../components/SubpageSection";
 
 function Clubs() {
   const pageTitle = getPageTitle("Clubs");
@@ -21,11 +22,15 @@ function Clubs() {
           content="https://savants.network/images/alfred.png"
         />
       </Helmet>
-      <div>
-        <h1>Clubs</h1>
-        <p>
-          SAVANTS BOOK AND FILM CLUBS
-          <br />
+      <div className="main-container">
+        <SubpageSection
+          title="Savants Book and Film Clubs"
+          image="Alfred.png"
+          imageAlt="Alfred Fried Portrait"
+          path="/clubs"
+          orientation="left"
+          fullPage={true}
+        >
           Our SAVANTS BOOK AND FILM CLUBS are one of our most popular learning
           opportunities. Have you ever wanted an expert to walk you through the
           nuances of French New Wave cinema or German Expressionism? Are you
@@ -44,7 +49,7 @@ function Clubs() {
           the ¨tricks of the trade,¨ so that you can experience and enjoy new
           ways to further understand, appreciate and enjoy literature and film
           in a comprehensive, multifaceted way.
-        </p>
+        </SubpageSection>
       </div>
     </>
   );

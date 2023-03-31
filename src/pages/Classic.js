@@ -1,5 +1,6 @@
 import { getPageTitle } from "../util";
 import { Helmet } from "react-helmet";
+import SubpageSection from "../components/SubpageSection";
 
 function Classic() {
   const pageTitle = getPageTitle("Classic Classes");
@@ -21,11 +22,15 @@ function Classic() {
           content="https://savants.network/images/marie.png"
         />
       </Helmet>
-      <div>
-        <h1>Classic Classes</h1>
-        <p>
-          SAVANTS CLASSIC COURSES
-          <br />
+      <div className="main-container">
+        <SubpageSection
+          title="Savant Classic Courses"
+          image="Marie.png"
+          imageAlt="Marie Curie Portrait"
+          path="/classic"
+          orientation="left"
+          fullPage={true}
+        >
           At SAVANTS, we stay true to our roots in the Arts and Humanities, and
           we pride ourselves in offering courses of incomparable quality in
           these areas. Our master classes in cinema, languages and literatures
@@ -33,7 +38,7 @@ function Classic() {
           offerings, and solidly establish our claim to excellence. We strive to
           make our core classic courses available in person- to-person format at
           as many locations as we can.
-        </p>
+        </SubpageSection>
       </div>
     </>
   );

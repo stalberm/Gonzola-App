@@ -1,5 +1,6 @@
 import { getPageTitle } from "../util";
 import { Helmet } from "react-helmet";
+import SubpageSection from "../components/SubpageSection";
 
 function Tutors() {
   const pageTitle = getPageTitle("Tutors");
@@ -21,11 +22,15 @@ function Tutors() {
           content="https://savants.network/images/thomas.png"
         />
       </Helmet>
-      <div>
-        <h1>Tutors</h1>
-        <p>
-          SAVANT TUTORS
-          <br />
+      <div className="main-container">
+        <SubpageSection
+          title="Savant Tutors"
+          image="Thomas.png"
+          imageAlt="Thomas Mann Portrait"
+          path="/tutors"
+          orientation="left"
+          fullPage={true}
+        >
           Our tutors are drawn from an exclusive group of teaching professionals
           from around the world. Our entry requirements are extremely strict; we
           source our colleagues from the most prestigious institutions. Our
@@ -52,7 +57,7 @@ function Tutors() {
           professionals. They are military service people and ordinary folk who
           have a thirst for new knowledge and a passion to explore new avenues
           of wisdom.
-        </p>
+        </SubpageSection>
       </div>
     </>
   );

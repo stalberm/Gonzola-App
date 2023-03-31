@@ -1,5 +1,6 @@
 import { getPageTitle } from "../util";
 import { Helmet } from "react-helmet";
+import SubpageSection from "../components/SubpageSection";
 
 function Seminars() {
   const pageTitle = getPageTitle("Professional Seminars");
@@ -21,11 +22,15 @@ function Seminars() {
           content="https://savants.network/images/severo.png"
         />
       </Helmet>
-      <div>
-        <h1>Seminars</h1>
-        <p>
-          PROFESSIONAL SAVANTS SEMINARS
-          <br />
+      <div className="main-container">
+        <SubpageSection
+          title="Professional Savants Seminars"
+          image="Severo.png"
+          imageAlt="Severo Ochoa Portrait"
+          path="/seminars"
+          orientation="right"
+          fullPage={true}
+        >
           The professional SAVANTS seminars are designed to provide actual,
           accountable results and real value at a fast-paced rhythm. Our
           professional students have excelled in their careers so far, but now
@@ -53,7 +58,7 @@ function Seminars() {
           only manage to customize our learning programs to your specific
           professional learning need, but we also adapt to your busy schedules
           as well, beginning with your first master class.
-        </p>
+        </SubpageSection>
       </div>
     </>
   );

@@ -1,5 +1,6 @@
 import { getPageTitle } from "../util";
 import { Helmet } from "react-helmet";
+import SubpageSection from "../components/SubpageSection";
 
 function Consulting() {
   const pageTitle = getPageTitle("Consulting");
@@ -21,11 +22,15 @@ function Consulting() {
           content="https://savants.network/images/martin.png"
         />
       </Helmet>
-      <div>
-        <h1>Consulting</h1>
-        <p>
-          SAVANTS CULTURAL CONSULTING
-          <br />
+      <div className="main-container">
+        <SubpageSection
+          title="Savants Cultural Consulting"
+          image="Martin.png"
+          imageAlt="Martin King Portrait"
+          path="/consulting"
+          orientation="left"
+          fullPage={true}
+        >
           Are you looking to make your next travel adventure more rich and
           pleasant, more intellectually and culturally informed? Or maybe you're
           a team leader looking to prepare your team for an important
@@ -57,7 +62,7 @@ function Consulting() {
           in an academic context. In other words, SAVANTS tutors are not simply
           native informants; they are important, intellectually-engaged actors
           in the culture or country of study.
-        </p>
+        </SubpageSection>
       </div>
     </>
   );

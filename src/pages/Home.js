@@ -83,7 +83,7 @@ function Home() {
             advanced, from all four corners of the globe.
           </SubpageSection>
           <SubpageSection
-            title="Professional Savants Seminars"
+            title="Savant Classic Courses"
             image="Marie.png"
             imageAlt="Marie Curie Portrait"
             path="/classic"

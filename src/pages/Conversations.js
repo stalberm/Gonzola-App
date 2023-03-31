@@ -1,5 +1,7 @@
 import { getPageTitle } from "../util";
 import { Helmet } from "react-helmet";
+import SubpageSection from "../components/SubpageSection";
+
 
 function Conversations() {
   const pageTitle = getPageTitle("Conversations");
@@ -24,11 +26,15 @@ function Conversations() {
           content="https://savants.network/images/emily.png"
         />
       </Helmet>
-      <div>
-        <h1>Conversations</h1>
-        <p>
-          SAVANTS IN CONVERSATION
-          <br />
+      <div className="main-container">
+        <SubpageSection
+          title="Savants in Conversation"
+          image="Emily.png"
+          imageAlt="Emily Balch Portrait"
+          path="/conversations"
+          orientation="right"
+          fullPage={true}
+        >
           From intermediate to advanced, at SAVANTS, we offer conversation
           courses in almost any language to students of all ages almost anywhere
           on Earth. As much as we value online communications, we make every
@@ -41,7 +47,7 @@ function Conversations() {
           increased competencies in language fundamentals, which leads
           organically to more sophisticated and nuanced communicative techniques
           and tactics.
-        </p>
+        </SubpageSection>
       </div>
     </>
   );

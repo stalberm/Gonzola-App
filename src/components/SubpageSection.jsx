@@ -3,7 +3,7 @@ import "./SubpageSection.css";
 import { useRef, useState, useEffect } from "react";
 
 export default function SubpageSection(props) {
-  const { title, image, imageAlt, children, orientation, path } = props;
+  const { title, image, imageAlt, children, orientation, path, fullPage } = props;
   const mark = useRef(null);
   const [isShowing, setIsShowing] = useState(false);
 
@@ -30,7 +30,7 @@ export default function SubpageSection(props) {
   const textContainer = (
     <div className="text-container">
       <p>{children}</p>
-      <LearnButton path={path} />
+      {!fullPage && <LearnButton path={path} />}
     </div>
   );
 
