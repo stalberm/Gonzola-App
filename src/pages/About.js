@@ -2,7 +2,6 @@ import { getPageTitle } from "../util";
 import Helmet from "react-helmet";
 import SubpageSection from "../components/SubpageSection";
 
-
 function About() {
   const pageTitle = getPageTitle("About Us");
   const description =

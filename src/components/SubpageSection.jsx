@@ -3,7 +3,8 @@ import "./SubpageSection.css";
 import { useRef, useState, useEffect } from "react";
 
 export default function SubpageSection(props) {
-  const { title, image, imageAlt, children, orientation, path, fullPage } = props;
+  const { title, image, imageAlt, children, orientation, path, fullPage } =
+    props;
   const mark = useRef(null);
   const [isShowing, setIsShowing] = useState(false);
 
@@ -41,12 +42,13 @@ export default function SubpageSection(props) {
         {orientation === "left" ? imageContainer : textContainer}
         {orientation === "left" ? textContainer : imageContainer}
       </div>
-      {fullPage && 
-      <LearnButton
-        path="/form"
-        text="Are You Ready To Join Our Network?"
-        id="join-button"
-      />}
+      {fullPage && (
+        <LearnButton
+          path="/form"
+          text="Are You Ready To Join Our Network?"
+          id="join-button"
+        />
+      )}
       <span className="detect-visibility" ref={mark}></span>
     </div>
   );

@@ -40,7 +40,7 @@ function Form() {
               className="text-input"
             />
           </div>
-        </div>  
+        </div>
         <div className="row">
           <div className="entry">
             <label for="phone">Phone</label>
@@ -87,7 +87,7 @@ function Form() {
         </div>
         <div className="row">
           <div className="entry">
-            <label for="state">State/Province</label> 
+            <label for="state">State/Province</label>
             <input
               type="text"
               placeholder="State"
@@ -123,11 +123,11 @@ function Form() {
           What is the nature of the tutoring services you require?
           <div className="options">
             Private
-            <input 
-              type="radio" 
-              name="tutoring_nature" 
-              value="Private" 
-              required 
+            <input
+              type="radio"
+              name="tutoring_nature"
+              value="Private"
+              required
             />
             Professional
             <input
@@ -139,7 +139,7 @@ function Form() {
           </div>
         </div>
         <div className="selection">
-          In which type of our tutoring services are you interested? 
+          In which type of our tutoring services are you interested?
           <div className="options">
             One-on-One
             <input
@@ -247,7 +247,7 @@ function Form() {
           </div>
         </div>
         <div className="row">
-          <input type="submit" value="Submit" className="submit-button"/>
+          <input type="submit" value="Submit" className="submit-button" />
         </div>
       </form>
     </div>
