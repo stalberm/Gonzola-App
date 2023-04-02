@@ -38,7 +38,7 @@ function Tutors() {
           universities in the world (according to Shanghai school rankings)
           and/or are part of the top ten academic programs in their discipline.
           They are highly esteemed in their fields of expertise everywhere. But
-          that's not all. In addition to notable degrees, our tutors are
+          that&apos;s not all. In addition to notable degrees, our tutors are
           well-respected teachers with proven classroom excellence. We use PROT
           (peer-review-of-teaching) evaluations as well as student evaluations
           to vet our tutors. Most of them have won multiple teaching awards.

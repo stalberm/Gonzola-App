@@ -22,7 +22,7 @@ function Form() {
       <form onSubmit={handleSubmit}>
         <div className="row">
           <div className="entry">
-            <label for="first_name">First name</label>
+            <label htmlFor="first_name">First name</label>
             <input
               type="text"
               placeholder="First Name"
@@ -32,7 +32,7 @@ function Form() {
             />
           </div>
           <div className="entry">
-            <label for="last_name">Last name</label>
+            <label htmlFor="last_name">Last name</label>
             <input
               type="text"
               placeholder="Last Name"
@@ -43,7 +43,7 @@ function Form() {
         </div>
         <div className="row">
           <div className="entry">
-            <label for="phone">Phone</label>
+            <label htmlFor="phone">Phone</label>
             <input
               type="phone"
               placeholder="Phone"
@@ -53,7 +53,7 @@ function Form() {
             />
           </div>
           <div className="entry">
-            <label for="email">Email</label>
+            <label htmlFor="email">Email</label>
             <input
               type="text"
               placeholder="Email"
@@ -65,7 +65,7 @@ function Form() {
         </div>
         <div className="row">
           <div className="entry">
-            <label for="address">Address</label>
+            <label htmlFor="address">Address</label>
             <input
               type="text"
               placeholder="Address"
@@ -75,7 +75,7 @@ function Form() {
             />
           </div>
           <div className="entry">
-            <label for="city">City</label>
+            <label htmlFor="city">City</label>
             <input
               type="text"
               placeholder="City"
@@ -87,7 +87,7 @@ function Form() {
         </div>
         <div className="row">
           <div className="entry">
-            <label for="state">State/Province</label>
+            <label htmlFor="state">State/Province</label>
             <input
               type="text"
               placeholder="State"
@@ -97,7 +97,7 @@ function Form() {
             />
           </div>
           <div className="entry">
-            <label for="zip">Zip</label>
+            <label htmlFor="zip">Zip</label>
             <input
               type="text"
               placeholder="Zip"
@@ -110,7 +110,7 @@ function Form() {
         </div>
         <div className="row">
           <div className="entry">
-            <label for="country">Country</label>
+            <label htmlFor="country">Country</label>
             <input
               type="text"
               placeholder="Country"
@@ -211,7 +211,7 @@ function Form() {
             />
             Mix
             <input type="radio" value="Mix" name="service_reception" required />
-            Doesn't Matter
+            Doesn&apos;t Matter
             <input
               type="radio"
               value="Doesn't Matter"

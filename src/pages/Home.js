@@ -123,9 +123,9 @@ function Home() {
           >
             Are you looking to make your next travel adventure more rich and
             pleasant, more intellectually and culturally informed? Or maybe
-            you're a team leader looking to prepare your team for an important
-            international or cross-cultural endeavor? Or perhaps you are, as
-            many of our students are, simply curious about the world.
+            you&apos;re a team leader looking to prepare your team for an
+            important international or cross-cultural endeavor? Or perhaps you
+            are, as many of our students are, simply curious about the world.
           </SubpageSection>
           <SubpageSection
             title="Savants in Conversation"

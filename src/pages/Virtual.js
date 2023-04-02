@@ -40,7 +40,7 @@ function Virtual() {
           of the globe. At SAVANTS, we understand that knowledges and learning
           styles are diverse. In addition to more traditional intellectual
           courses, our wellness-related initiatives are becoming ever more
-          popular. And if you're looking for an untraditional approach to
+          popular. And if you&apos;re looking for an untraditional approach to
           traditional topics, we can offer tutors trained in decolonizing
           methodologies, who approach learning from non-Western, indigenous, and
           community-based perspectives. From anthropology, acarology or apiology
