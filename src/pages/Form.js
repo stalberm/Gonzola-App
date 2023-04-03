@@ -1,6 +1,8 @@
+import { useNavigate } from "react-router";
 import "./Form.css";
 
 function Form() {
+  const navigate = useNavigate();
   const handleSubmit = async (e) => {
     e.preventDefault();
     const data = new FormData(e.target);
@@ -9,11 +11,13 @@ function Form() {
       body: data,
     });
     if (response.ok) {
-      // TODO: go back to home page or show success message
+      navigate("/formsubmitted");
     } else {
-      // TODO: show errors
-      const errors = JSON.parse(response.headers.get("FormErrors"));
+      const errors = JSON.parse(response.headers.get("FormErrors") ?? "[]");
       console.log(errors);
+      alert(
+        "There were some errors in the information submitted. Please double check and re-submit."
+      );
     }
   };
 
