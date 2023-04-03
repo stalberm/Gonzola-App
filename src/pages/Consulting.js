@@ -1,6 +1,6 @@
 import { getPageTitle } from "../util";
 import { Helmet } from "react-helmet";
-import SubpageSection from "../components/SubpageSection";
+import Subpage from "../components/Subpage";
 
 function Consulting() {
   const pageTitle = getPageTitle("Consulting");
@@ -23,7 +23,7 @@ function Consulting() {
         />
       </Helmet>
       <div className="main-container">
-        <SubpageSection
+        <Subpage
           title="Savants Cultural Consulting"
           image="Martin.png"
           imageAlt="Martin King Portrait"
@@ -62,7 +62,7 @@ function Consulting() {
           in-depth in an academic context. In other words, SAVANTS tutors are
           not simply native informants; they are important,
           intellectually-engaged actors in the culture or country of study.
-        </SubpageSection>
+        </Subpage>
       </div>
     </>
   );
