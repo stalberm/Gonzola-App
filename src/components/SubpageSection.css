@@ -23,8 +23,14 @@
 
 .subpage-section .content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto auto;
+}
+
+.subpage-section .content[data-orientation='left'] {
+  grid-template-columns: 3fr 4fr;
+}
+.subpage-section .content[data-orientation='right'] {
+  grid-template-columns: 4fr 3fr;
 }
 
 .subpage-section .detect-visibility {
@@ -35,7 +41,10 @@
 .text-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+}
+
+.text-container p {
+  line-height: 1.5rem;
 }
 
 .image-container {
@@ -75,7 +84,7 @@
 
 @media screen and (max-width: 480px) {
   .subpage-section .content {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
     grid-template-rows: auto auto auto;
   }
 
