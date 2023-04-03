@@ -16,6 +16,7 @@ body[data-modal-open="true"] {
 .nav-bar .link {
   text-decoration: none;
   color: var(--theme-color-primary);
+  text-transform: uppercase;
 }
 
 .nav-bar .list {
