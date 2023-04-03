@@ -3,8 +3,7 @@ import "./Subpage.css";
 import { useRef, useState, useEffect } from "react";
 
 export default function Subpage(props) {
-  const { title, image, imageAlt, children, orientation } =
-    props;
+  const { title, image, imageAlt, children, orientation } = props;
   const mark = useRef(null);
   const [isShowing, setIsShowing] = useState(false);
 
@@ -25,7 +24,7 @@ export default function Subpage(props) {
 
   const textContainer = (
     <div className="container">
-      <img src={`images/${image}`} alt={imageAlt} id="text"/>
+      <img src={`images/${image}`} alt={imageAlt} id="text" />
       <p>{children}</p>
     </div>
   );
