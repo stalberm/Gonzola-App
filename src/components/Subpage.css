@@ -33,7 +33,7 @@
 
 .container img {
   float: left;
-  margin: 1.25rem;
+  margin-right: 1.25rem;
   margin-bottom: 0;
   border-radius: 0.5rem;
 }
@@ -46,11 +46,21 @@
 }
 
 .container img#text {
-  width: 30rem;
+  width: 25rem;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   .subpage {
     padding: 1.5rem;
+  }
+
+  .container img#text {
+    width: 95%;
+    margin-left: 2.5%;
+    float: unset;
+  }
+
+  .container {
+    margin: 0;
   }
 }

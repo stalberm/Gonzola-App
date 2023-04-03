@@ -27,9 +27,7 @@ function Consulting() {
           title="Savants Cultural Consulting"
           image="Martin.png"
           imageAlt="Martin King Portrait"
-          path="/consulting"
           orientation="left"
-          fullPage={true}
           paragraphs={[
             <>
               Are you looking to make your next travel adventure more rich and
