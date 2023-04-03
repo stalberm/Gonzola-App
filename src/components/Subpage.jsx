@@ -45,7 +45,6 @@ export default function Subpage(props) {
       <div className="content" data-orientation={orientation}>
         <h2 className="subpage-title">{title}</h2>
         {textContainer}
-        {/* {orientation === "left" ? textContainer : imageContainer} */}
       </div>
       <LearnButton
         path="/form"
