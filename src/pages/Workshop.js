@@ -30,20 +30,19 @@ function Workshop() {
           orientation="right"
           paragraphs={[
             <>
-              Young, ambitious writers as well as seasoned professionals seek us out
-              to deepen and develop their skills. Our SAVANTS WRITING WORKSHOPS
-              provide high-quality feedback from accomplished authors. Whether you
-              want to hone your professional writing skills or produce a manuscript
-              of original poetry, our writing workshops offer all participants a
-              challenging and rewarding experience.
+              Young, ambitious writers as well as seasoned professionals seek us
+              out to deepen and develop their skills. Our SAVANTS WRITING
+              WORKSHOPS provide high-quality feedback from accomplished authors.
+              Whether you want to hone your professional writing skills or
+              produce a manuscript of original poetry, our writing workshops
+              offer all participants a challenging and rewarding experience.
             </>,
             <>
-              Our advanced seminars are
-              typically taken by junior professionals who want to consult with
-              senior SAVANTS tutors who are experts in these fields. As part of our
-              classic SAVANTS programs, we offer these courses face-to-face in as
-              many communities as we can.
-            </>
+              Our advanced seminars are typically taken by junior professionals
+              who want to consult with senior SAVANTS tutors who are experts in
+              these fields. As part of our classic SAVANTS programs, we offer
+              these courses face-to-face in as many communities as we can.
+            </>,
           ]}
         ></Subpage>
       </div>
