@@ -1,25 +1,9 @@
-@keyframes subPageFadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-.subpage.show {
-  animation: subPageFadeIn 0.5s ease-in-out;
-  animation-fill-mode: forwards;
-}
-
 .subpage {
   display: flex;
   flex-direction: column;
   padding: 3rem 0;
   align-items: center;
   position: relative;
-  opacity: 0;
 }
 
 .subpage .detect-visibility {

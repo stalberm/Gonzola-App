@@ -1,6 +1,5 @@
 import LearnButton from "./LearnButton";
 import "./Subpage.css";
-import { useRef, useState, useEffect } from "react";
 
 export default function Subpage(props) {
   const {
@@ -10,23 +9,6 @@ export default function Subpage(props) {
     paragraphs: paragraphTexts,
     orientation,
   } = props;
-  const mark = useRef(null);
-  const [isShowing, setIsShowing] = useState(false);
-
-  useEffect(() => {
-    if (isShowing) return;
-    const observer = new IntersectionObserver((entries) => {
-      const [entry] = entries;
-      if (entry.isIntersecting) {
-        setIsShowing(true);
-      }
-    });
-    const element = mark?.current;
-    if (element) observer.observe(element);
-    return () => {
-      if (element) observer.unobserve(element);
-    };
-  });
 
   const paragraphs = [];
   for (const text of paragraphTexts) {
@@ -41,7 +23,7 @@ export default function Subpage(props) {
   );
 
   return (
-    <div className={`subpage ${isShowing ? "show" : ""}`}>
+    <div className="subpage">
       <div className="content" data-orientation={orientation}>
         <h2 className="subpage-title">{title}</h2>
         {textContainer}
@@ -51,7 +33,7 @@ export default function Subpage(props) {
         text="Are You Ready To Join Our Network?"
         id="join-button"
       />
-      <span className="detect-visibility" ref={mark}></span>
+      <span className="detect-visibility"></span>
     </div>
   );
 }
