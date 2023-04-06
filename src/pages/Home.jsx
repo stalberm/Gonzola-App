@@ -48,7 +48,7 @@ function Home() {
             on occasion.
           </SubpageSection>
           <SubpageSection
-            title="Savant Tutors"
+            title="Savants Tutors"
             image="Thomas.png"
             imageAlt="Thomas Mann Portrait"
             path="/tutors"
@@ -68,7 +68,7 @@ function Home() {
             of them have won multiple teaching awards.
           </SubpageSection>
           <SubpageSection
-            title="Savant Custom Courses"
+            title="Savants Custom Courses"
             image="Gabriel.png"
             imageAlt="Gabriel Marquez Portrait"
             path="/virtual"
@@ -83,7 +83,7 @@ function Home() {
             advanced, from all four corners of the globe.
           </SubpageSection>
           <SubpageSection
-            title="Savant Classic Courses"
+            title="Savants Classic Courses"
             image="Marie.png"
             imageAlt="Marie Curie Portrait"
             path="/classic"

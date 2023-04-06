@@ -24,7 +24,7 @@ function Virtual() {
       </Helmet>
       <div className="main-container">
         <Subpage
-          title="Savant Custom Courses"
+          title="Savants Custom Courses"
           image="Gabriel.png"
           imageAlt="Gabriel Marquez Portrait"
           orientation="right"

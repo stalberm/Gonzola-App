@@ -24,7 +24,7 @@ function Classic() {
       </Helmet>
       <div className="main-container">
         <Subpage
-          title="Savant Classic Courses"
+          title="Savants Classic Courses"
           image="Marie.png"
           imageAlt="Marie Curie Portrait"
           orientation="left"

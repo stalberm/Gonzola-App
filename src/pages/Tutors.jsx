@@ -24,7 +24,7 @@ function Tutors() {
       </Helmet>
       <div className="main-container">
         <Subpage
-          title="Savant Tutors"
+          title="Savants Tutors"
           image="Thomas.png"
           imageAlt="Thomas Mann Portrait"
           orientation="left"
