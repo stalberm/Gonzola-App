@@ -1,6 +1,5 @@
 import Helmet from "react-helmet";
 import HomeLogo from "../components/HomeLogo";
-import LearnButton from "../components/LearnButton";
 import SubpageSection from "../components/SubpageSection";
 import { getPageTitle } from "../util";
 import "./Home.css";
@@ -177,11 +176,6 @@ function Home() {
             poetry, our writing workshops offer all participants a challenging
             and rewarding experience.
           </SubpageSection>
-          <LearnButton
-            path="/form"
-            text="Are You Ready To Join Our Network?"
-            id="join-button"
-          />
         </div>
       </div>
     </>
