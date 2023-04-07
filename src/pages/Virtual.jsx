@@ -30,7 +30,7 @@ function Virtual() {
           orientation="right"
           paragraphs={[
             <>
-              At SAVANTS we offer virtual custom courses in any conceivable
+              At <strong> SAVANTS </strong> we offer virtual custom courses in any conceivable
               subject virtually. Whatever your need, whatever your curiosity, we
               are here to provide a curated educational encounter.
             </>,
@@ -41,7 +41,7 @@ function Virtual() {
               basic to advanced, from all four corners of the globe.
             </>,
             <>
-              At SAVANTS, we understand that knowledges and learning styles are
+              At <strong> SAVANTS </strong>, we understand that knowledges and learning styles are
               diverse. In addition to more traditional intellectual courses, our
               wellness-related initiatives are becoming ever more popular. And
               if you&apos;re looking for an untraditional approach to
@@ -51,7 +51,7 @@ function Virtual() {
             </>,
             <>
               From anthropology, acarology or apiology to volcanology,
-              xenobiology or zoology, at SAVANTS you will find a tutor to guide
+              xenobiology or zoology, at <strong> SAVANTS </strong> you will find a tutor to guide
               you into a learning adventure custom created for you.
             </>,
           ]}

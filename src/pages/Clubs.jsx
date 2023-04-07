@@ -30,7 +30,7 @@ function Clubs() {
           orientation="left"
           paragraphs={[
             <>
-              Our SAVANTS BOOK AND FILM CLUBS are one of our most popular
+              Our <strong> SAVANTS BOOK AND FILM CLUBS </strong> are one of our most popular
               learning opportunities. Have you ever wanted an expert to walk you
               through the nuances of French New Wave cinema or German
               Expressionism? Are you looking for someone to help you curate a

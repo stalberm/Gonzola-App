@@ -30,14 +30,14 @@ function Seminars() {
           orientation="right"
           paragraphs={[
             <>
-              The professional SAVANTS seminars are designed to provide actual,
+              The professional <strong> SAVANTS </strong>  seminars are designed to provide actual,
               accountable results and real value at a fast-paced rhythm.
             </>,
             <>
               Our professional students have excelled in their careers so far,
               but now need to more fully master a particular subject (usually a
               foreign language, but sometimes a specific aspect of business).
-              Typically sponsored by companies directly, the SAVANTS SEMINARS
+              Typically sponsored by companies directly, the <strong> SAVANTS SEMINARS </strong> 
               are always custom built around the particular needs students or
               small groups. These courses engage business-related issues and
               practices from the very first meeting.
@@ -67,7 +67,7 @@ function Seminars() {
               area.
             </>,
             <>
-              At SAVANTS we not only manage to customize our learning programs
+              At <strong> SAVANTS </strong> we not only manage to customize our learning programs
               to your specific professional learning need, but we also adapt to
               your busy schedules as well, beginning with your first master
               class.

@@ -54,7 +54,7 @@ function Tutors() {
             <>
               Short and simple: our pledge is to put the very best teachers in
               the world at your service, for a unique and exclusive tutoring
-              experience. SAVANTS STUDENTS
+              experience.
             </>,
             <>
               <strong>SAVANTS STUDENTS</strong>

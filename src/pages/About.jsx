@@ -30,7 +30,7 @@ function About() {
           orientation="left"
           paragraphs={[
             <>
-              SAVANTS is an exclusive space where teaching professionals with
+              <strong> THE SAVANTS NETWORK </strong> is an exclusive space where teaching professionals with
               the highest qualifications offer private tutoring services to
               extremely engaged students. All our programs are unique, tailored
               specifically to your schedule, pace, and curiosities. We have an
