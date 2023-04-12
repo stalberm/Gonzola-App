@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <div className="nav-bar">
       <button onClick={() => setShowMobile(!showMobile)}>
-        <img src="logo192.png" alt="Savants Logo" />{" "}
+        <img src="logo192.png" alt="Savants Logo" />
         <GiHamburgerMenu id="menu" />
       </button>
       <ul

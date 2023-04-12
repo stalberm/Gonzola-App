@@ -49,7 +49,7 @@ function Consulting() {
             </>,
             <>
               Whether you are packing up for a short, intensive visit or a
-              permanent relocation,{" "}
+              permanent relocation,
               <strong> SAVANTS CULTURAL CONSULTING PROGRAMS </strong> will
               ensure you feel confident and savvy upon arrival (although we have
               yet to come up with a cure for jet lag). When offered in a
@@ -69,7 +69,7 @@ function Consulting() {
               <strong> SAVANTS </strong> tutors have strong bonds to the culture
               you&apos;re discovering; they are usually native to the culture or
               have close ties to it. Additionally, they have studied it in-depth
-              in an academic context. In other words, <strong> SAVANTS </strong>{" "}
+              in an academic context. In other words, <strong> SAVANTS </strong>
               tutors are not simply native informants; they are important,
               intellectually-engaged actors in the culture or country of study.
             </>,
