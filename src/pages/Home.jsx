@@ -151,11 +151,6 @@ function Home() {
             start? Or maybe you’re looking to brush up on classical Chinese
             poetry or the best of current Young Adult fiction? Want to debate
             The Book vs. The Movie Version of a story you love? We’ve got you.
-            <br /> Typically offered in a six-week format, in our book and film
-            clubs, tutor and student create a tailor-made program designed to
-            meet your interests and prior training. We frequently offer these
-            experiences for families or groups of friends looking to take their
-            next gathering to the next level.
           </SubpageSection>
           <SubpageSection
             title="Savants Writing Workshops"
