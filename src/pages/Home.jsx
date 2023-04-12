@@ -108,10 +108,6 @@ function Home() {
             rhythm. Our professional students have excelled in their careers so
             far, but now need to more fully master a particular subject (usually
             a foreign language, but sometimes a specific aspect of business).
-            <br /> Typically sponsored by companies directly, the
-            <strong> SAVANTS SEMINARS </strong> are always custom built around
-            the particular needs students or small groups. These courses engage
-            business-related issues and practices from the very first meeting.
           </SubpageSection>
           <SubpageSection
             title="Savants Cultural Consulting"
