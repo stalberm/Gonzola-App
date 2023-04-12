@@ -218,7 +218,7 @@ function Form() {
             Doesn&apos;t Matter
             <input
               type="radio"
-              value="Doesn't Matter"
+              value="No Preference"
               name="service_reception"
               required
             />
