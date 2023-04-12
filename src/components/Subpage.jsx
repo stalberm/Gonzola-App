@@ -11,8 +11,9 @@ export default function Subpage(props) {
   } = props;
 
   const paragraphs = [];
+  let i = 0;
   for (const text of paragraphTexts) {
-    paragraphs.push(<p>{text}</p>);
+    paragraphs.push(<p key={i++}>{text}</p>);
   }
 
   const textContainer = (

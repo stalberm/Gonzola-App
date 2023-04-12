@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router";
+import { useNavigate } from "react-router-dom";
 import "./Form.css";
 
 function Form() {
@@ -215,7 +215,7 @@ function Form() {
             />
             Mix
             <input type="radio" value="Mix" name="service_reception" required />
-            Doesn&apos;t Matter
+            No Preference
             <input
               type="radio"
               value="No Preference"
