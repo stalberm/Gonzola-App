@@ -29,6 +29,12 @@
   align-items: center;
   margin-bottom: 3rem;
 }
+.home-logo .welcome-blurb {
+  text-align: center;
+  display: block;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
 .logo-half {
   display: inline-block;
 }
@@ -50,6 +56,14 @@
   animation-name: logo_enter_right;
 }
 .home-logo h1 {
+  opacity: 0;
+  animation-name: logo_appear;
+  animation-duration: 0.5s;
+  animation-delay: 1.15s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.3, -0.01, 0.82, 0.19);
+}
+.home-logo .welcome-blurb {
   opacity: 0;
   animation-name: logo_appear;
   animation-duration: 0.5s;
