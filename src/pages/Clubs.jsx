@@ -30,15 +30,15 @@ function Clubs() {
           orientation="left"
           paragraphs={[
             <>
-              Our <strong> SAVANTS BOOK AND FILM CLUBS </strong> are one of our most popular
-              learning opportunities. Have you ever wanted an expert to walk you
-              through the nuances of French New Wave cinema or German
-              Expressionism? Are you looking for someone to help you curate a
-              crash course in Classic Hollywood? Curious about Charles Dickens
-              or Jane Austen but don’t know where to start? Or maybe you’re
-              looking to brush up on classical Chinese poetry or the best of
-              current Young Adult fiction? Want to debate The Book vs. The Movie
-              Version of a story you love? We’ve got you.
+              Our <strong> SAVANTS BOOK AND FILM CLUBS </strong> are one of our
+              most popular learning opportunities. Have you ever wanted an
+              expert to walk you through the nuances of French New Wave cinema
+              or German Expressionism? Are you looking for someone to help you
+              curate a crash course in Classic Hollywood? Curious about Charles
+              Dickens or Jane Austen but don’t know where to start? Or maybe
+              you’re looking to brush up on classical Chinese poetry or the best
+              of current Young Adult fiction? Want to debate The Book vs. The
+              Movie Version of a story you love? We’ve got you.
             </>,
             <>
               Typically offered in a six-week format, in our book and film

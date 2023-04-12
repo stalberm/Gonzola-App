@@ -30,13 +30,14 @@ function Classic() {
           orientation="left"
           paragraphs={[
             <>
-              At <strong> SAVANTS </strong>, we stay true to our roots in the Arts and Humanities,
-              and we pride ourselves in offering courses of incomparable quality
-              in these areas. Our master classes in cinema, languages and
-              literatures constitute our core, classic courses; they are the
-              foundation of our offerings, and solidly establish our claim to
-              excellence. We strive to make our core classic courses available
-              in person- to-person format at as many locations as we can.
+              At <strong> SAVANTS </strong>, we stay true to our roots in the
+              Arts and Humanities, and we pride ourselves in offering courses of
+              incomparable quality in these areas. Our master classes in cinema,
+              languages and literatures constitute our core, classic courses;
+              they are the foundation of our offerings, and solidly establish
+              our claim to excellence. We strive to make our core classic
+              courses available in person- to-person format at as many locations
+              as we can.
             </>,
           ]}
         ></Subpage>

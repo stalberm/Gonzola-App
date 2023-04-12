@@ -60,11 +60,11 @@ function Home() {
             one of the top ten universities in the world (according to Shanghai
             school rankings) and/or are part of the top ten academic programs in
             their discipline. They are highly esteemed in their fields of
-            expertise everywhere. <br /> But that’s not all. In addition to
-            notable degrees, our tutors are well-respected teachers with proven
-            classroom excellence. We use PROT (peer-review-of-teaching)
-            evaluations as well as student evaluations to vet our tutors. Most
-            of them have won multiple teaching awards.
+            expertise everywhere. <br /> Distinguished executives from top
+            companies and world renowned, award-winning professionals in
+            artistic and creative fields are part of our network as well. Their
+            wealth of knowledge and their generous desire to share their
+            experiences constitute the pillars of our network.
           </SubpageSection>
           <SubpageSection
             title="Savants Custom Courses"
