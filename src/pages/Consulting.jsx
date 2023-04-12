@@ -37,7 +37,7 @@ function Consulting() {
               are, as many of our students are, simply curious about the world.
             </>,
             <>
-              In <strong> SAVANTS CULTURAL CONSULTING PROGRAMS </strong>,
+              In <strong> SAVANTS CULTURAL CONSULTING PROGRAMS</strong>,
               students immerse themselves in past and present political and
               cultural contexts of a country or region, focusing on history,
               socio-economics, politics, and cultural studies. These courses do

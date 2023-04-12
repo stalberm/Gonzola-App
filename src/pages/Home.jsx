@@ -88,7 +88,7 @@ function Home() {
             path="/classic"
             orientation="left"
           >
-            At <strong> SAVANTS </strong>, we stay true to our roots in the Arts
+            At <strong> SAVANTS</strong>, we stay true to our roots in the Arts
             and Humanities, and we pride ourselves in offering courses of
             incomparable quality in these areas. Our master classes in cinema,
             languages and literatures constitute our core, classic courses; they
@@ -129,7 +129,7 @@ function Home() {
             path="/conversations"
             orientation="right"
           >
-            From intermediate to advanced, at <strong> SAVANTS </strong>, we
+            From intermediate to advanced, at <strong> SAVANTS</strong>, we
             offer conversation courses in almost any language to students of all
             ages almost anywhere on Earth. As much as we value online
             communications, we make every effort to offer such courses in a

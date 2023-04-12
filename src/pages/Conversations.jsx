@@ -33,7 +33,7 @@ function Conversations() {
           orientation="right"
           paragraphs={[
             <>
-              From intermediate to advanced, at <strong> SAVANTS </strong>, we
+              From intermediate to advanced, at <strong> SAVANTS</strong>, we
               offer conversation courses in almost any language to students of
               all ages almost anywhere on Earth. As much as we value online
               communications, we make every effort to offer such courses in a

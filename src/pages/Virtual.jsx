@@ -42,7 +42,7 @@ function Virtual() {
               basic to advanced, from all four corners of the globe.
             </>,
             <>
-              At <strong> SAVANTS </strong>, we understand that knowledges and
+              At <strong> SAVANTS</strong>, we understand that knowledges and
               learning styles are diverse. In addition to more traditional
               intellectual courses, our wellness-related initiatives are
               becoming ever more popular. And if you&apos;re looking for an
