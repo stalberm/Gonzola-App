@@ -13,6 +13,13 @@ body {
   background-repeat: space repeat;
 }
 
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column;
+  justify-items: self-start;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -29,6 +36,7 @@ code {
   padding: 2rem;
   margin-bottom: 2rem !important;
   border-radius: 1rem;
+  flex-grow: 1;
 }
 
 @media screen and (min-width: 92rem) {

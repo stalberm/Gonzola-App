@@ -4,6 +4,7 @@
   color: #fff;
   padding: 20px;
   text-align: center;
+  justify-self: flex-end;
 }
 
 @media screen and (max-width: 500px) {
