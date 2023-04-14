@@ -266,16 +266,16 @@ function Form() {
           </div>
           <div className="checkbox">
             <div className="options">
+              <input type="checkbox" name="info_physical" />
               I would like to receive information regarding all courses offered
               in my town, city, or region
-              <input type="checkbox" name="info_physical" />
             </div>
           </div>
           <div className="checkbox">
             <div className="options">
+              <input type="checkbox" name="info_virtual" />
               I would like to receive information regarding all courses offered
               virtually
-              <input type="checkbox" name="info_virtual" />
             </div>
           </div>
           <p>
