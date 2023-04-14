@@ -1,5 +1,5 @@
 import { getPageTitle } from "../util";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import Subpage from "../components/Subpage";
 
 function Tutors() {

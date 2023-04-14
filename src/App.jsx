@@ -1,5 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
+import { HelmetProvider } from "react-helmet-async";
 import "./App.css";
 
 import Home from "./pages/Home";
@@ -28,23 +29,25 @@ function App() {
 
   return (
     <>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/tutors" element={<Tutors />} />
-        <Route path="/virtual" element={<Virtual />} />
-        <Route path="/classic" element={<Classic />} />
-        <Route path="/seminars" element={<Seminars />} />
-        <Route path="/consulting" element={<Consulting />} />
-        <Route path="/conversations" element={<Conversations />} />
-        <Route path="/clubs" element={<Clubs />} />
-        <Route path="/workshop" element={<Workshop />} />
-        <Route path="/form" element={<Form />} />
-        <Route path="/formsubmitted" element={<FormSubmitted />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-      <Footer />
+      <HelmetProvider>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/tutors" element={<Tutors />} />
+          <Route path="/virtual" element={<Virtual />} />
+          <Route path="/classic" element={<Classic />} />
+          <Route path="/seminars" element={<Seminars />} />
+          <Route path="/consulting" element={<Consulting />} />
+          <Route path="/conversations" element={<Conversations />} />
+          <Route path="/clubs" element={<Clubs />} />
+          <Route path="/workshop" element={<Workshop />} />
+          <Route path="/form" element={<Form />} />
+          <Route path="/formsubmitted" element={<FormSubmitted />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+        <Footer />
+      </HelmetProvider>
     </>
   );
 }

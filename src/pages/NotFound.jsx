@@ -1,6 +1,6 @@
 import "./NotFound.css";
 import { NavLink } from "react-router-dom";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import { getPageTitle } from "../util";
 
 export default function NotFoundPage() {

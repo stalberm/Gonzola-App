@@ -1,4 +1,4 @@
-import Helmet from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import HomeLogo from "../components/HomeLogo";
 import SubpageSection from "../components/SubpageSection";
 import { getPageTitle } from "../util";
