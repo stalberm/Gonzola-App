@@ -1,0 +1,13 @@
+#footer {
+  background-color: var(--theme-color-primary);
+  border-top: 0.25rem solid var(--theme-color-secondary);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  #footer {
+    text-align: left;
+  }
+}

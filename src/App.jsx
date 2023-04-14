@@ -18,6 +18,7 @@ import NotFound from "./pages/NotFound";
 import FormSubmitted from "./pages/FormSubmitted";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import Footer from "./components/Footer";
 
 function App() {
   const { pathname } = useLocation();
@@ -43,6 +44,7 @@ function App() {
         <Route path="/formsubmitted" element={<FormSubmitted />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Footer />
     </>
   );
 }
