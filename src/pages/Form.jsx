@@ -22,7 +22,7 @@ function Form() {
   };
 
   return (
-    <div className="form-container">
+    <div className="form-container main-container">
       <form onSubmit={handleSubmit}>
         <div className="row">
           <div className="entry">

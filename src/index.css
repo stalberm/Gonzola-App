@@ -10,9 +10,58 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: url(/public/images/logo-rotated.png);
   background-size: 5rem;
+  background-repeat: space;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.main-container #join-button {
+  justify-content: center;
+}
+
+.main-container {
+  margin: 0 16rem;
+  max-width: 60rem;
+  background-color: white;
+  padding: 2rem;
+  margin-bottom: 2rem !important;
+  border-radius: 1rem;
+}
+
+@media screen and (min-width: 92rem) {
+  .main-container {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .main-container {
+    margin: 0 9rem;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .main-container {
+    margin: 0 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-container {
+    margin: 0 1.5rem;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .main-container {
+    margin: 0 0.75rem;
+    padding: 0.5rem;
+  }
+
+  .content {
+    flex-flow: column;
+  }
 }
