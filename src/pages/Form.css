@@ -52,3 +52,8 @@
   height: 2rem;
   font-size: 1.25rem;
 }
+
+em {
+  color: #222;
+  font-weight: bold;
+}

@@ -250,6 +250,13 @@ function Form() {
             <input type="checkbox" name="info_virtual" />
           </div>
         </div>
+        <p>
+          <em>
+            * Please Note: by virtue of its extremely exclusive nature, SAVANTS
+            NETWORK does NOT publicize its services through any form of mass or
+            social media.
+          </em>
+        </p>
         <div className="row">
           <input type="submit" value="Submit" className="submit-button" />
         </div>
