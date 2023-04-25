@@ -60,34 +60,6 @@
 
 @media screen and (min-width: 480px) {
   .logo-half {
-    width: 4rem;
-  }
-  .logo-half.left {
-    margin-right: 0.4rem;
-  }
-  .icon-container {
-    width: 8.4rem;
-  }
-  .home-logo h1 {
-    font-size: 1rem;
-  }
-}
-@media screen and (min-width: 800px) {
-  .logo-half {
-    width: 6rem;
-  }
-  .logo-half.left {
-    margin-right: 0.6rem;
-  }
-  .icon-container {
-    width: 12.6rem;
-  }
-  .home-logo h1 {
-    font-size: 1.5rem;
-  }
-}
-@media screen and (min-width: 1100px) {
-  .logo-half {
     width: 9rem;
   }
   .logo-half.left {
@@ -97,10 +69,10 @@
     width: 18.9rem;
   }
   .home-logo h1 {
-    font-size: 1.75rem;
+    font-size: 1rem;
   }
 }
-@media screen and (min-width: 1480px) {
+@media screen and (min-width: 800px) {
   .logo-half {
     width: 12rem;
   }
@@ -109,6 +81,34 @@
   }
   .icon-container {
     width: 25.2rem;
+  }
+  .home-logo h1 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .logo-half {
+    width: 15rem;
+  }
+  .logo-half.left {
+    margin-right: 1.6rem;
+  }
+  .icon-container {
+    width: 31.6rem;
+  }
+  .home-logo h1 {
+    font-size: 1.75rem;
+  }
+}
+@media screen and (min-width: 1480px) {
+  .logo-half {
+    width: 18rem;
+  }
+  .logo-half.left {
+    margin-right: 1.9rem;
+  }
+  .icon-container {
+    width: 37.9rem;
   }
   .home-logo h1 {
     font-size: 2rem;
