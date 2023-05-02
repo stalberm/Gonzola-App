@@ -29,7 +29,8 @@
   align-items: center;
   margin-bottom: 3rem;
   --logo-duration: 1.5s;
-  --logo-half-width: 9rem;
+  --logo-half-width: 4rem;
+  --logo-max-half-width: 4rem;
 }
 .home-logo .welcome-blurb {
   text-align: center;
@@ -43,6 +44,7 @@
 .icon-container {
   margin: auto;
   width: calc(var(--logo-half-width) * 2 + var(--logo-half-width) / 10);
+  max-width: calc(var(--logo-max-half-width) * 2 + var(--logo-max-half-width) / 10);
 }
 .logo-half {
   animation-timing-function: cubic-bezier(0.3, -0.01, 0.82, 0.19);
@@ -50,11 +52,16 @@
   animation-delay: 0.1s;
   animation-fill-mode: forwards;
   width: var(--logo-half-width);
+  max-width: var(--logo-max-half-width);
 }
 .logo-half.left {
   transform: translateX(-50vw);
   animation-name: logo_enter_left;
-  margin-right: calc(var(--logo-half-width) / 10);
+}
+.logo-spacer {
+  width: calc(var(--logo-half-width) / 10);
+  max-width: calc(var(--logo-max-half-width) / 10);
+  display: inline-block;
 }
 .logo-half.right {
   transform: translatex(50vw);
@@ -68,8 +75,10 @@
   animation-delay: calc(var(--logo-duration) + 0.15s);
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0.3, -0.01, 0.82, 0.19);
+  font-size: calc(var(--logo-half-width) / 7);
 }
 
+/* adjustment for heights */
 @media screen and (min-height: 480px) {
   .home-logo {
     --logo-half-width: 6rem;
@@ -77,7 +86,7 @@
 }
 @media screen and (min-height: 600px) {
   .home-logo {
-    --logo-half-width: 9rem;
+    --logo-half-width: 11rem;
   }
 }
 @media screen and (min-height: 800px) {
@@ -87,16 +96,32 @@
 }
 @media screen and (min-height: 1100px) {
   .home-logo {
-    --logo-half-width: 20rem;
+    --logo-half-width: 16rem;
   }
 }
-@media screen and (min-height: 1480px) {
+/* adjustments for widths */
+@media screen and (max-width: 1100px) {
   .home-logo {
-    --logo-half-width: 25rem;
+    --logo-max-half-width: 16rem;
   }
 }
-@media screen and (min-height: 1800px) {
+@media screen and (max-width: 800px) {
   .home-logo {
-    --logo-half-width: 28rem;
+    --logo-max-half-width: 16rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .home-logo {
+    --logo-max-half-width: 14rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .home-logo {
+    --logo-max-half-width: 10rem;
+  }
+}
+@media screen and (min-width: 800px) {
+  .home-logo {
+    --logo-max-half-width: 20rem;
   }
 }

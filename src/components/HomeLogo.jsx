@@ -9,6 +9,7 @@ export default function HomeLogo() {
           <div className="left logo-half">
             <img src="/images/icon_half_left.svg" alt="left half of logo" />
           </div>
+          <div className="logo-spacer"></div>
           <div className="right logo-half">
             <img src="/images/icon_half_right.svg" alt="right half of logo" />
           </div>
