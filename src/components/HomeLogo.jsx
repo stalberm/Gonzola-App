@@ -14,7 +14,11 @@ export default function HomeLogo() {
             <img src="/images/icon_half_right.svg" alt="right half of logo" />
           </div>
         </div>
-        <h1>SAVANTS NETWORK</h1>
+        <h1>
+          <span className="titleLeft">SAVANTS</span>
+          <span className="titleSpace">&nbsp;</span>
+          <span className="titleRight">NETWORK</span>
+        </h1>
       </div>
     </div>
   );
