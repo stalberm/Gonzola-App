@@ -116,6 +116,13 @@
     --logo-max-half-width: 16rem;
   }
 }
+@media screen and (min-width: 800px) {
+  /* this is super hacky */
+  .home-logo h1 .titleSpace::after {
+    content: "-";
+    opacity: 0;
+  }
+}
 @media screen and (max-width: 800px) {
   .home-logo {
     --logo-max-half-width: 16rem;
