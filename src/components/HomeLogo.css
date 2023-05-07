@@ -120,6 +120,9 @@
   .home-logo {
     --logo-max-half-width: 16rem;
   }
+  .home-logo h1 {
+    display: block;
+  }
 }
 @media screen and (max-width: 600px) {
   .home-logo {

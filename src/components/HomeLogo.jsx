@@ -16,7 +16,7 @@ export default function HomeLogo() {
         </div>
         <h1>
           <span className="titleLeft">SAVANTS</span>
-          <span className="titleSpace">&nbsp;</span>
+          <span className="titleSpace"> </span>
           <span className="titleRight">NETWORK</span>
         </h1>
       </div>
