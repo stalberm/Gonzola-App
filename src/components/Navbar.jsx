@@ -66,7 +66,7 @@ function Navbar() {
         </li>
         <li className="item" data-current={pathname === "/workshop"}>
           <NavLink to="/workshop" className="link">
-            Workshop
+            Workshops
           </NavLink>
         </li>
       </ul>
