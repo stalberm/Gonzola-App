@@ -4,7 +4,7 @@ export default function HomeLogo() {
   return (
     <div className="home-logo">
       <div>
-        <span className="welcome-blurb">Welcome to the</span>
+        <span className="welcome-blurb">Are you ready for your next learning adventure?</span>
         <div className="icon-container">
           <div className="left logo-half">
             <img src="/images/icon_half_left.svg" alt="left half of logo" />
