@@ -28,15 +28,19 @@
   display: grid;
   align-items: center;
   margin-bottom: 3rem;
-  --logo-duration: 1.5s;
+  --logo-duration: 4s;
   --logo-half-width: 4rem;
   --logo-max-half-width: 4rem;
+}
+.home-logo h1 {
+  font-size: calc(var(--logo-half-width) / 4);
 }
 .home-logo .welcome-blurb {
   text-align: center;
   display: block;
   margin-bottom: 2rem;
   font-size: 1.5rem;
+  font-size: calc(var(--logo-half-width) / 6);
 }
 .logo-half {
   display: inline-block;
@@ -75,7 +79,6 @@
   animation-delay: calc(var(--logo-duration) + 0.15s);
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0.3, -0.01, 0.82, 0.19);
-  font-size: calc(var(--logo-half-width) / 7);
 }
 
 /* adjustment for heights */
