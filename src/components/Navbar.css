@@ -68,6 +68,16 @@ button {
 
 .nav-bar #menu {
   font-size: 2.5rem;
+  align-self: end;
+}
+
+.nav-bar #menu-button {
+    justify-content: flex-end;
+}
+.top-button {
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
 }
 
 @media screen and (max-width: 480px) {

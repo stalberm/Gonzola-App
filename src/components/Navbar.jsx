@@ -10,10 +10,17 @@ function Navbar() {
 
   return (
     <div className="nav-bar">
-      <button onClick={() => setShowMobile(!showMobile)}>
-        <img src="logo192.png" alt="Savants Logo" />
-        <GiHamburgerMenu id="menu" />
-      </button>
+      <div className="top-button">
+        <button onClick={() => setShowMobile(false)}>
+          <NavLink to="/" className="link">
+            <img src="logo192.png" alt="Savants Logo" />
+          </NavLink>
+        </button>
+        <button onClick={() => setShowMobile(!showMobile)} id="menu-button">
+          <GiHamburgerMenu id="menu" />
+        </button>
+        
+      </div>
       <ul
         className="list"
         id={showMobile ? "mobile" : ""}
