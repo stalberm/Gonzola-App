@@ -10,9 +10,12 @@
 
 body {
   margin: 0;
-  font-family: "Century Gothic", "Arial", "Helvetica", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body * {
+  font-family: "Century Gothic", "Arial", "Helvetica", sans-serif;
 }
 
 #root {

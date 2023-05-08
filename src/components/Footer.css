@@ -2,7 +2,7 @@
   background-color: var(--theme-color-primary);
   border-top: 0.25rem solid var(--theme-color-secondary);
   color: #fff;
-  padding: 20px;
+  padding: 0.5rem;
   text-align: center;
   justify-self: flex-end;
 }

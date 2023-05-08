@@ -97,7 +97,7 @@
 }
 @media screen and (min-height: 600px) {
   .home-logo {
-    --logo-half-width: 11rem;
+    --logo-half-width: 10rem;
   }
 }
 @media screen and (min-height: 800px) {
